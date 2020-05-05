@@ -31,7 +31,7 @@ Black letters over white background (blackonwhite):
 
 Using Vundle:
 
-    Plugin 'viniciusban/vim-simple-colorschemes'
+    Plugin 'viniciusban/vim-distractionfree-colorschemes'
     set termguicolors  | " not required, but way better
     colorscheme whiteonblack | " or yellowonblack, or blackonwhite
 
