@@ -6,6 +6,7 @@ set background=dark
 hi clear
 
 let g:colors_name = 'yellowonblack'
+let g:next_colorscheme = 'whiteonblack'
 
 
 " Color codes from https://www.rapidtables.com/web/color/RGB_Color.html
