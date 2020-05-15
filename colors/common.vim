@@ -81,7 +81,7 @@ hi! link Pmenu      Visual
 hi! link PmenuSel   Search
 hi! link PmenuSbar  Search
 hi! link PmenuThumb Normal
-hi! link WildMenu   Normal
+hi! link WildMenu   Search
 
 " Messages and user interaction
 hi! link ModeMsg    customHighlight
