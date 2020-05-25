@@ -63,7 +63,7 @@ hi! link lCursor      Cursor
 " Visual mode and Search
 hi! link Visual    customInvertedDark
 hi! link IncSearch Todo
-hi! link Search    customSearch
+hi! link Search    customInverted
 
 " Indicators and references
 hi! link CursorLine   customLine

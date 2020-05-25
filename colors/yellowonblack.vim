@@ -20,7 +20,6 @@ hi Normal             guifg=#CCB928 guibg=#24292E           ctermfg=Yellow cterm
 
 hi customDark         guifg=#808000 guibg=bg gui=NONE       ctermfg=DarkYellow ctermbg=bg cterm=NONE
 hi customHighlight    guifg=#FFFF00 guibg=bg gui=NONE       ctermfg=LightYellow ctermbg=bg cterm=NONE
-hi customSearch       guifg=#000000 guibg=#FFFF00 gui=NONE  ctermfg=Black ctermbg=LightYellow cterm=NONE
 hi customInvertedDark guifg=#000000 guibg=#808000           ctermfg=Black ctermbg=DarkYellow
 hi customLine         guibg=#333333 gui=NONE                ctermbg=DarkGray cterm=NONE
 hi customDirectory    guifg=#1395BA guibg=bg                ctermfg=Cyan ctermbg=bg
