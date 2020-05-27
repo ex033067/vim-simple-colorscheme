@@ -12,14 +12,14 @@ let g:next_colorscheme = 'whiteonblack'
 " Color codes from https://www.rapidtables.com/web/color/RGB_Color.html
 
 
-hi Normal             guifg=#CCB928 guibg=#24292E           ctermfg=Yellow ctermbg=Black
+hi Normal             guifg=#CCB928 guibg=#000000           ctermfg=Yellow ctermbg=Black
 
 
 " Custom groups
 " =============
 
 hi customDark         guifg=#808000 guibg=bg gui=NONE       ctermfg=DarkYellow ctermbg=bg cterm=NONE
-hi customHighlight    guifg=#FFFF00 guibg=bg gui=NONE       ctermfg=LightYellow ctermbg=bg cterm=NONE
+hi customHighlight    guifg=#FFFFFF guibg=bg gui=NONE       ctermfg=White ctermbg=bg cterm=NONE
 hi customInvertedDark guifg=#000000 guibg=#808000           ctermfg=Black ctermbg=DarkYellow
 hi customLine         guibg=#333333 gui=NONE                ctermbg=DarkGray cterm=NONE
 hi customDirectory    guifg=#1395BA guibg=bg                ctermfg=Cyan ctermbg=bg
