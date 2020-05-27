@@ -27,6 +27,7 @@ hi customDirectory    guifg=#1395BA guibg=bg                ctermfg=Cyan ctermbg
 hi customTitle        guifg=#FFFFFF guibg=#1395BA gui=NONE  ctermfg=White ctermbg=Cyan cterm=NONE
 hi customHeader       guifg=#E4E318 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
 hi customTodo         guifg=#FFFFFF guibg=#1395BA           ctermfg=White ctermbg=Cyan
+hi customStatusLine   guifg=#FFFFFF guibg=#A9A9A9 gui=NONE  ctermfg=White ctermbg=DarkGray cterm=NONE
 
 
 " Git diff groups

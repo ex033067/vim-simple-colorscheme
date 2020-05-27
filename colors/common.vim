@@ -98,8 +98,8 @@ hi! link SpellRare  WarningMsg
 hi! link SpellLocal WarningMsg
 
 " Bars, lines and dividers
-hi! link StatusLine   Visual
-hi! link StatusLineNC CursorLine
+hi! link StatusLine   customStatusLine
+hi! link StatusLineNC Visual
 hi! link VertSplit    StatusLineNC
 
 hi! link TabLine      StatusLineNC
