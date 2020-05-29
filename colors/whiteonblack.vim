@@ -20,14 +20,14 @@ hi Normal             guifg=#DDDDDD guibg=#181818           ctermfg=LightGray ct
 
 hi customDark         guifg=#777777 guibg=bg gui=NONE       ctermfg=Gray ctermbg=bg cterm=NONE
 hi customHighlight    guifg=#CCB928 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
-hi customInvertedDark guifg=#000000 guibg=#A9A9A9           ctermfg=Black ctermbg=DarkGray
+hi customInvertedDark guifg=#000000 guibg=#666666           ctermfg=Black ctermbg=DarkGray
 hi customLine         guibg=#333333 gui=NONE                ctermbg=DarkGray cterm=NONE
 hi customDirectory    guifg=#1395BA guibg=bg                ctermfg=Cyan ctermbg=bg
 
 hi customTitle        guifg=#FFFFFF guibg=#1395BA gui=NONE  ctermfg=White ctermbg=Cyan cterm=NONE
 hi customHeader       guifg=#E4E318 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
 hi customTodo         guifg=#FFFFFF guibg=#1395BA           ctermfg=White ctermbg=Cyan
-hi customStatusLine   guifg=#FFFFFF guibg=#A9A9A9 gui=NONE  ctermfg=White ctermbg=DarkGray cterm=NONE
+hi customStatusLine   guifg=#FFFFFF guibg=#666666 gui=NONE  ctermfg=White ctermbg=DarkGray cterm=NONE
 
 
 " Git diff groups
