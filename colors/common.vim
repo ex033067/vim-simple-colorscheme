@@ -25,7 +25,7 @@ hi! link SpecialKey  customHighlight
 
 hi! link Ignore      Folded
 hi! link Conceal     Ignore
-hi! link NonText     Visual
+hi! link NonText     Comment
 hi! link EndOfBuffer Normal
 
 
