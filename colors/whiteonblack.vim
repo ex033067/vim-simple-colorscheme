@@ -35,7 +35,7 @@ hi customStatusLine   guifg=#FFFF00 guibg=#999999 gui=NONE  ctermfg=Yellow cterm
 hi  diffLine            guifg=#008B8B guibg=bg gui=bold    ctermfg=DarkCyan ctermbg=bg cterm=NONE
 
 hi  DiffChange       guifg=fg     guibg=#222222 gui=NONE   ctermfg=fg ctermbg=DarkGray cterm=NONE
-hi  DiffText         guifg=#EF8B2C guibg=#222222 gui=NONE  ctermfg=Brown ctermbg=DarkGray cterm=NONE
+hi  DiffText         guifg=#FFFF00 guibg=#222222 gui=NONE  ctermfg=Brown ctermbg=DarkGray cterm=NONE
 
 
 " Help groups
