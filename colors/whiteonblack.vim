@@ -18,13 +18,13 @@ hi Normal             guifg=#ECF0F1 guibg=#181818           ctermfg=White ctermb
 " =============
 
 hi customDark         guifg=#999999 guibg=bg gui=NONE       ctermfg=Gray ctermbg=bg cterm=NONE
-hi customHighlight    guifg=#E4E318 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
+hi customHighlight    guifg=#FFFF00 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
 hi customInvertedDark guifg=#000000 guibg=#999999           ctermfg=Black ctermbg=Gray
 hi customLine         guibg=#333333 gui=NONE                ctermbg=DarkGray cterm=NONE
 hi customDirectory    guifg=#1395BA guibg=bg                ctermfg=Cyan ctermbg=bg
 
 hi customTitle        guifg=#FFFFFF guibg=#1395BA gui=NONE  ctermfg=White ctermbg=Cyan cterm=NONE
-hi customHeader       guifg=#E4E318 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
+hi customHeader       guifg=#FFFF00 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
 hi customTodo         guifg=#FFFFFF guibg=#1395BA           ctermfg=White ctermbg=Cyan
 hi customStatusLine   guifg=#FFFF00 guibg=#999999 gui=NONE  ctermfg=Yellow ctermbg=Gray cterm=NONE
 
