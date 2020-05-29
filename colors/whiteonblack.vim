@@ -35,8 +35,8 @@ hi customWarningMsg   guifg=#000000 guibg=#E4E318 gui=NONE  ctermfg=Black ctermb
 
 hi  diffLine            guifg=#008B8B guibg=bg gui=bold    ctermfg=DarkCyan ctermbg=bg cterm=NONE
 
-hi  DiffChange       guifg=fg     guibg=#222222 gui=NONE   ctermfg=fg ctermbg=DarkGray cterm=NONE
-hi  DiffText         guifg=#FFFF00 guibg=#222222 gui=NONE  ctermfg=Brown ctermbg=DarkGray cterm=NONE
+hi  DiffChange       guifg=fg     guibg=#333333 gui=NONE   ctermfg=fg ctermbg=DarkGray cterm=NONE
+hi  DiffText         guifg=#FFFF00 guibg=#333333 gui=NONE  ctermfg=Brown ctermbg=DarkGray cterm=NONE
 
 
 " Help groups
