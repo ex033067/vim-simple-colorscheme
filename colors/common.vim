@@ -26,7 +26,7 @@ hi! link Directory   customDirectory
 hi! link Special     Normal
 hi! link SpecialKey  customHighlight
 
-hi! link Ignore      Folded
+hi! link Ignore      Comment
 hi! link Conceal     Ignore
 hi! link NonText     Comment
 hi! link EndOfBuffer Normal
@@ -75,7 +75,7 @@ hi! link CursorLineNr CursorLine
 hi! link ColorColumn  CursorLine
 hi! link LineNr       Comment
 hi! link SignColumn   Normal
-hi! link Folded       Directory
+hi! link Folded       customDark
 hi! link FoldColumn   Folded
 hi  MatchParen        guibg=NONE gui=underline    ctermbg=NONE cterm=underline
 
