@@ -49,6 +49,8 @@ hi! link Todo       customTodo
 
 hi! link Error      customRed
 
+hi Underlined       guifg=fg guibg=bg gui=underline     ctermfg=fg ctermbg=bg cterm=underline
+
 
 " Elements of interface
 " =====================
