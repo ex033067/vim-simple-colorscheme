@@ -18,16 +18,16 @@ hi Normal             guifg=#FFFF00 guibg=#181818           ctermfg=Yellow cterm
 " Custom groups
 " =============
 
-hi customDark         guifg=#808000 guibg=bg gui=NONE       ctermfg=DarkYellow ctermbg=bg cterm=NONE
+hi customDark         guifg=#A3A40C guibg=bg gui=NONE       ctermfg=DarkYellow ctermbg=bg cterm=NONE
 hi customHighlight    guifg=#FFFFFF guibg=bg gui=NONE       ctermfg=White ctermbg=bg cterm=NONE
-hi customInvertedDark guifg=#000000 guibg=#808000           ctermfg=Black ctermbg=DarkYellow
+hi customInvertedDark guifg=#000000 guibg=#A3A40C           ctermfg=Black ctermbg=DarkYellow
 hi customLine         guibg=#333333 gui=NONE                ctermbg=DarkGray cterm=NONE
 hi customDirectory    guifg=#1395BA guibg=bg                ctermfg=Cyan ctermbg=bg
 
 hi customTitle        guifg=#FFFF00 guibg=#1395BA gui=NONE  ctermfg=White ctermbg=Cyan cterm=NONE
 hi customHeader       guifg=#F6F7F9 guibg=bg gui=NONE       ctermfg=White ctermbg=bg cterm=NONE
 hi customTodo         guifg=#FFFF00 guibg=#1395BA           ctermfg=LightYellow ctermbg=Cyan
-hi customStatusLine   guifg=#FFFFFF guibg=#808000 gui=NONE  ctermfg=LightYellow ctermbg=DarkYellow cterm=NONE
+hi customStatusLine   guifg=#FFFFFF guibg=#A3A40C gui=NONE  ctermfg=LightYellow ctermbg=DarkYellow cterm=NONE
 
 " Git diff groups
 " ===============
