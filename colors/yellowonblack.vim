@@ -12,7 +12,7 @@ let g:next_colorscheme = 'whiteonblack'
 " Color codes from https://www.rapidtables.com/web/color/RGB_Color.html
 
 
-hi Normal             guifg=#CCB928 guibg=#181818           ctermfg=Yellow ctermbg=Black
+hi Normal             guifg=#FFFF00 guibg=#181818           ctermfg=Yellow ctermbg=Black
 
 
 " Custom groups
