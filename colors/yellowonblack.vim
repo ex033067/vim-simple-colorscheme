@@ -1,17 +1,16 @@
 " Vim colorscheme with harmonic basic colors
 " Maintainer:	Vinicius Assef <viniciusban@gmail.com>
 " Last Change:	2020 Abr 23
+"
+" Color codes from:
+"   - https://www.rapidtables.com/web/color/RGB_Color.html
+"   - https://www.color-hex.com/
 
 set background=dark
 hi clear
 
 let g:colors_name = 'yellowonblack'
 let g:next_colorscheme = 'whiteonblack'
-
-
-" Color codes from https://www.rapidtables.com/web/color/RGB_Color.html
-
-
 hi Normal             guifg=#FFFF00 guibg=#181818           ctermfg=Yellow ctermbg=Black
 
 

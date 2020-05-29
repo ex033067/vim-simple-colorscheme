@@ -1,16 +1,15 @@
 " Vim colorscheme with harmonic basic colors
 " Maintainer:	Vinicius Assef <viniciusban@gmail.com>
 " Last Change:	2020 Abr 23
+"
+" Color codes from:
+"   - https://www.rapidtables.com/web/color/RGB_Color.html
+"   - https://www.color-hex.com/
 
 set background=light
 hi clear
 
 let g:colors_name = 'blackonwhite'
-
-
-" Color codes from https://www.rapidtables.com/web/color/RGB_Color.html
-
-
 hi Normal             guifg=#555555 guibg=#FFFFFF           ctermfg=Gray ctermbg=White
 
 

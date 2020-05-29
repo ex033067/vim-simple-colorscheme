@@ -1,6 +1,9 @@
 " Common settings for all colorschemes
+"
+" Color codes from:
+"   - https://www.rapidtables.com/web/color/RGB_Color.html
+"   - https://www.color-hex.com/
 
-" Color codes from https://www.rapidtables.com/web/color/RGB_Color.html
 
 " Custom groups
 " =============
