@@ -13,7 +13,6 @@ hi customItalic       guifg=fg guibg=bg gui=italic          ctermfg=fg ctermbg=b
 hi customBold         guifg=fg guibg=bg gui=bold            ctermfg=fg ctermbg=bg cterm=bold
 hi customInverted     guifg=#000000 guibg=fg                ctermfg=Black ctermbg=fg
 hi customErrorMsg     guifg=#FFFFFF guibg=#C02F1D           ctermfg=White ctermbg=Red
-hi customWarningMsg   guifg=#000000 guibg=#E4E318 gui=NONE  ctermfg=Black ctermbg=Yellow cterm=NONE
 
 hi customGreen        guifg=#26CC00 guibg=NONE gui=NONE     ctermfg=Green ctermbg=NONE cterm=NONE
 hi customRed          guifg=#C02F1D guibg=NONE gui=NONE     ctermfg=Red ctermbg=NONE cterm=NONE
