@@ -14,6 +14,7 @@ hi customBold         guifg=fg guibg=bg gui=bold            ctermfg=fg ctermbg=b
 hi customInverted     guifg=#000000 guibg=fg                ctermfg=Black ctermbg=fg
 hi customDirectory    guifg=#00FFFF guibg=bg                ctermfg=Cyan ctermbg=bg
 hi customErrorMsg     guifg=#FFFFFF guibg=#C02F1D           ctermfg=White ctermbg=Red
+hi customLine         guibg=#333333 gui=NONE                ctermbg=DarkGray cterm=NONE
 
 hi customGreen        guifg=#26CC00 guibg=NONE gui=NONE     ctermfg=Green ctermbg=NONE cterm=NONE
 hi customRed          guifg=#C02F1D guibg=NONE gui=NONE     ctermfg=Red ctermbg=NONE cterm=NONE
