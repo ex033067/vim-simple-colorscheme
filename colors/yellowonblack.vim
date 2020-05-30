@@ -21,9 +21,9 @@ hi customDark         guifg=#A3A40C guibg=bg gui=NONE       ctermfg=DarkYellow c
 hi customHighlight    guifg=#FFFFFF guibg=bg gui=NONE       ctermfg=White ctermbg=bg cterm=NONE
 hi customInvertedDark guifg=#000000 guibg=#A3A40C           ctermfg=Black ctermbg=DarkYellow
 hi customLine         guibg=#222222 gui=NONE                ctermbg=DarkGray cterm=NONE
-hi customTitle        guifg=#FFFF00 guibg=#1395BA gui=NONE  ctermfg=White ctermbg=Cyan cterm=NONE
+hi customTitle        guifg=#FFFF00 guibg=#008B8B gui=NONE  ctermfg=White ctermbg=DarkCyan cterm=NONE
 hi customHeader       guifg=#F6F7F9 guibg=bg gui=NONE       ctermfg=White ctermbg=bg cterm=NONE
-hi customTodo         guifg=#FFFF00 guibg=#1395BA           ctermfg=LightYellow ctermbg=Cyan
+hi customTodo         guifg=#FFFFFF guibg=#008B8B           ctermfg=White ctermbg=DarkCyan cterm=NONE
 hi customStatusLine   guifg=#FFFFFF guibg=#A3A40C gui=NONE  ctermfg=LightYellow ctermbg=DarkYellow cterm=NONE
 hi customWarningMsg   guifg=#000000 guibg=#FFFFFF gui=NONE  ctermfg=Black ctermbg=White cterm=NONE
 
@@ -41,7 +41,6 @@ hi  DiffText         guifg=#FFFFFF guibg=#333333 gui=NONE  ctermfg=White ctermbg
 
 hi  helpHyperTextEntry  guifg=#A9A9A9                  ctermfg=DarkGray
 hi  helpHyperTextJump   guifg=#A9A9A9 gui=underline    ctermfg=DarkGray cterm=underline
-hi  helpSpecial         guifg=#1395BA                  ctermfg=Cyan
 
 " Common
 " ======

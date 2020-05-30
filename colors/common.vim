@@ -152,7 +152,7 @@ hi! link gitcommitUntrackedFile Normal
 " ===========
 
 hi! link HelpHeader     customHeader
-hi  helpSpecial         guifg=#1395BA                ctermfg=DarkCyan
+hi  helpSpecial         guifg=#00FFFF                ctermfg=Cyan
 
 hi! link helpOption     helpSpecial
 hi! link helpExample    customHighlight

@@ -21,9 +21,9 @@ hi customDark         guifg=#999999 guibg=bg gui=NONE       ctermfg=Gray ctermbg
 hi customHighlight    guifg=#FFFF00 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
 hi customInvertedDark guifg=#000000 guibg=#999999           ctermfg=Black ctermbg=Gray
 hi customLine         guibg=#222222 gui=NONE                ctermbg=DarkGray cterm=NONE
-hi customTitle        guifg=#FFFFFF guibg=#1395BA gui=NONE  ctermfg=White ctermbg=Cyan cterm=NONE
+hi customTitle        guifg=#FFFFFF guibg=#008B8B gui=NONE  ctermfg=White ctermbg=DarkCyan cterm=NONE
 hi customHeader       guifg=#FFFF00 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
-hi customTodo         guifg=#FFFFFF guibg=#1395BA           ctermfg=White ctermbg=Cyan
+hi customTodo         guifg=#FFFFFF guibg=#008B8B           ctermfg=White ctermbg=DarkCyan cterm=NONE
 hi customStatusLine   guifg=#FFFF00 guibg=#999999 gui=NONE  ctermfg=Yellow ctermbg=Gray cterm=NONE
 hi customWarningMsg   guifg=#000000 guibg=#E4E318 gui=NONE  ctermfg=Black ctermbg=Yellow cterm=NONE
 
@@ -42,7 +42,6 @@ hi  DiffText         guifg=#FFFF00 guibg=#333333 gui=NONE  ctermfg=Yellow ctermb
 
 hi  helpHyperTextEntry  guifg=#808000                ctermfg=DarkYellow
 hi  helpHyperTextJump   guifg=#808000 gui=underline  ctermfg=DarkYellow cterm=underline
-hi  helpSpecial         guifg=#1395BA                ctermfg=Cyan
 
 
 " Common
