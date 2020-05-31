@@ -26,11 +26,6 @@ hi customTodo         guifg=#FFFFFF guibg=#008B8B           ctermfg=White ctermb
 hi customStatusLine   guifg=#FFFFFF guibg=#A3A40C gui=NONE  ctermfg=LightYellow ctermbg=DarkYellow cterm=NONE
 hi customWarningMsg   guifg=#000000 guibg=#FFFFFF gui=NONE  ctermfg=Black ctermbg=White cterm=NONE
 
-" Git diff groups
-" ===============
-
-hi  DiffText         guifg=#FFFFFF guibg=#000080 gui=NONE  ctermfg=White ctermbg=DarkBlue cterm=NONE
-
 
 " Help groups
 " ===========

@@ -27,12 +27,6 @@ hi customStatusLine   guifg=#FFFF00 guibg=#999999 gui=NONE  ctermfg=Yellow cterm
 hi customWarningMsg   guifg=#000000 guibg=#E4E318 gui=NONE  ctermfg=Black ctermbg=Yellow cterm=NONE
 
 
-" Git diff groups
-" ===============
-
-hi  DiffText         guifg=#FFFF00 guibg=#000080 gui=NONE  ctermfg=Yellow ctermbg=DarkBlue cterm=NONE
-
-
 " Help groups
 " ===========
 
