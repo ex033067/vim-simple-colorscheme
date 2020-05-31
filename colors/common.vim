@@ -173,8 +173,8 @@ hi! link helpWarning    WarningMsg
 
 hi! link NERDTreeHelp           Normal
 hi! link NERDTreeHelpTitle      helpHeader
-hi! link NERDTreeHelpKey        helpSpecial
-hi! link NERDTreeHelpCommand    helpExample
+hi! link NERDTreeHelpKey        customDark
+hi! link NERDTreeHelpCommand    customDark
 hi! link NERDTreeToggleOff      customRed
 hi! link NERDTreeToggleOn       customGreen
 
