@@ -30,10 +30,7 @@ hi customWarningMsg   guifg=#000000 guibg=#E4E318 gui=NONE  ctermfg=Black ctermb
 " Git diff groups
 " ===============
 
-hi  diffLine            guifg=#008B8B guibg=bg gui=bold    ctermfg=DarkCyan ctermbg=bg cterm=NONE
-
-hi  DiffChange       guifg=fg     guibg=#333333 gui=NONE   ctermfg=fg ctermbg=DarkGray cterm=NONE
-hi  DiffText         guifg=#FFFF00 guibg=#333333 gui=NONE  ctermfg=Yellow ctermbg=DarkGray cterm=NONE
+hi  DiffText         guifg=#FFFF00 guibg=#000080 gui=NONE  ctermfg=Yellow ctermbg=DarkBlue cterm=NONE
 
 
 " Help groups
