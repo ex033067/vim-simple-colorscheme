@@ -17,13 +17,13 @@ hi Normal             guifg=#FFFFFF guibg=#181818           ctermfg=White ctermb
 " Custom groups
 " =============
 
-hi customDark         guifg=#7A7A7A guibg=bg gui=NONE       ctermfg=Gray ctermbg=bg cterm=NONE
+hi customDark         guifg=#999999 guibg=bg gui=NONE       ctermfg=Gray ctermbg=bg cterm=NONE
 hi customHighlight    guifg=#FFFF00 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
-hi customInvertedDark guifg=#000000 guibg=#7A7A7A           ctermfg=Black ctermbg=Gray
+hi customInvertedDark guifg=#000000 guibg=#999999           ctermfg=Black ctermbg=Gray
 hi customTitle        guifg=#FFFFFF guibg=#008B8B gui=NONE  ctermfg=White ctermbg=DarkCyan cterm=NONE
 hi customHeader       guifg=#FFFF00 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
 hi customTodo         guifg=#FFFFFF guibg=#008B8B           ctermfg=White ctermbg=DarkCyan cterm=NONE
-hi customStatusLine   guifg=#FFFF00 guibg=#7A7A7A gui=NONE  ctermfg=Yellow ctermbg=Gray cterm=NONE
+hi customStatusLine   guifg=#FFFF00 guibg=#999999 gui=NONE  ctermfg=Yellow ctermbg=Gray cterm=NONE
 hi customWarningMsg   guifg=#000000 guibg=#E4E318 gui=NONE  ctermfg=Black ctermbg=Yellow cterm=NONE
 
 
