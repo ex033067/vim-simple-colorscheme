@@ -11,7 +11,7 @@ hi clear
 
 let g:colors_name = 'whiteonblack'
 let g:next_colorscheme = 'yellowonblack'
-hi Normal             guifg=#ECF0F1 guibg=#181818           ctermfg=White ctermbg=Black
+hi Normal             guifg=#FFFFFF guibg=#181818           ctermfg=White ctermbg=Black
 
 
 " Custom groups
