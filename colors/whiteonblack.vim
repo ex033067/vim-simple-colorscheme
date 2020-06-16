@@ -23,7 +23,7 @@ hi customInvertedDark guifg=#000000 guibg=#7A7A7A           ctermfg=Black ctermb
 hi customTitle        guifg=#FFFFFF guibg=#008B8B gui=NONE  ctermfg=White ctermbg=DarkCyan cterm=NONE
 hi customHeader       guifg=#FFFF00 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
 hi customStatusLine   guifg=#FFFFFF guibg=#7A7A7A gui=NONE  ctermfg=Yellow ctermbg=DarkGray cterm=NONE
-hi customWarningMsg   guifg=#000000 guibg=#E4E318 gui=NONE  ctermfg=Black ctermbg=Yellow cterm=NONE
+hi customWarningMsg   guifg=#000000 guibg=#FFFF00 gui=NONE  ctermfg=Black ctermbg=Yellow cterm=NONE
 
 
 " Help groups
