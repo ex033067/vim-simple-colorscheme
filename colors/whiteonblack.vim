@@ -20,7 +20,6 @@ hi Normal             guifg=#FFFFFF guibg=#181818           ctermfg=White ctermb
 hi customDark         guifg=#999999 guibg=bg gui=NONE       ctermfg=Gray ctermbg=bg cterm=NONE
 hi customHighlight    guifg=#FFFF00 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
 hi customInvertedDark guifg=#000000 guibg=#7A7A7A           ctermfg=Black ctermbg=DarkGray
-hi customTitle        guifg=#FFFFFF guibg=#008B8B gui=NONE  ctermfg=White ctermbg=DarkCyan cterm=NONE
 hi customHeader       guifg=#FFFF00 guibg=bg gui=NONE       ctermfg=Yellow ctermbg=bg cterm=NONE
 hi customStatusLine   guifg=#FFFFFF guibg=#7A7A7A gui=NONE  ctermfg=Yellow ctermbg=DarkGray cterm=NONE
 

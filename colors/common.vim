@@ -14,6 +14,7 @@ hi customBold         guifg=fg guibg=bg gui=bold            ctermfg=fg ctermbg=b
 hi customSearch       guifg=#000000 guibg=#FFFFFF           ctermfg=Black ctermbg=White
 hi customErrorMsg     guifg=#FFFFFF guibg=#C02F1D           ctermfg=White ctermbg=Red
 hi customWarningMsg   guifg=#000000 guibg=#FFFF00 gui=NONE  ctermfg=Black ctermbg=Yellow cterm=NONE
+hi customTitle        guifg=#FFFFFF guibg=#008B8B gui=NONE  ctermfg=White ctermbg=DarkCyan cterm=NONE
 hi customLine         guibg=#333333 gui=NONE                ctermbg=DarkGray cterm=NONE
 
 hi customGreen        guifg=#26CC00 guibg=NONE gui=NONE     ctermfg=Green ctermbg=NONE cterm=NONE
