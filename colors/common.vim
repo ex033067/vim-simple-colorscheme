@@ -46,7 +46,7 @@ hi! link Type       Normal
 hi! link PreProc    Normal
 hi! link Identifier Normal
 
-hi! link Todo       customTodo
+hi! link Todo       customWarningMsg
 
 hi! link Error      customRed
 
