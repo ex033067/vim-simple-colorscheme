@@ -69,7 +69,7 @@ hi! link lCursor      Cursor
 
 " Visual mode and Search
 hi! link Visual    customInvertedDark
-hi! link IncSearch Todo
+hi! link IncSearch customTitle
 hi! link Search    customSearch
 
 " Indicators and references
