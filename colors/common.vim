@@ -27,7 +27,7 @@ hi customRed          guifg=#C02F1D guibg=NONE gui=NONE     ctermfg=Red ctermbg=
 
 hi! link Directory   customDark
 hi! link Special     Normal
-hi! link SpecialKey  customHighlight
+hi! link SpecialKey  customGreen
 
 hi! link Ignore      Comment
 hi! link Conceal     Ignore
@@ -159,7 +159,7 @@ hi! link gitcommitUntrackedFile Normal
 " ===========
 
 hi! link HelpHeader     customBold
-hi  helpSpecial         guifg=#00FFFF                ctermfg=Cyan
+hi! link helpSpecial    customHighlight
 
 hi! link helpOption     helpSpecial
 hi! link helpExample    customHighlight
