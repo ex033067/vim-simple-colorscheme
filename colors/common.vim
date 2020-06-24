@@ -11,6 +11,7 @@
 hi customNormal       guifg=fg guibg=bg                     ctermfg=fg ctermbg=bg
 hi customItalic       guifg=fg guibg=bg gui=italic          ctermfg=fg ctermbg=bg cterm=italic
 hi customBold         guifg=fg guibg=bg gui=bold            ctermfg=fg ctermbg=bg cterm=bold
+hi customIncSearch    guifg=#000000 guibg=#990099           ctermfg=Black ctermbg=Magenta
 hi customSearch       guifg=#000000 guibg=#FFFFFF           ctermfg=Black ctermbg=White
 hi customErrorMsg     guifg=#FFFFFF guibg=#C02F1D           ctermfg=White ctermbg=Red
 hi customWarningMsg   guifg=#000000 guibg=#FFFF00 gui=NONE  ctermfg=Black ctermbg=Yellow cterm=NONE
@@ -69,7 +70,7 @@ hi! link lCursor      Cursor
 
 " Visual mode and Search
 hi! link Visual    customInvertedDark
-hi! link IncSearch customTitle
+hi! link IncSearch customIncSearch
 hi! link Search    customSearch
 
 " Indicators and references
