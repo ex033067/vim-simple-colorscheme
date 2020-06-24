@@ -157,7 +157,7 @@ hi! link gitcommitUntrackedFile Normal
 " Help groups
 " ===========
 
-hi! link HelpHeader     customHeader
+hi! link HelpHeader     customBold
 hi  helpSpecial         guifg=#00FFFF                ctermfg=Cyan
 
 hi! link helpOption     helpSpecial
@@ -216,7 +216,7 @@ hi! link fugitiveSection            customDark
 " HTML
 " ====
 
-hi! link htmlH1     customHeader
+hi! link htmlH1     customTitle
 hi! link htmlBold   customBold
 hi! link htmlItalic customItalic
 
