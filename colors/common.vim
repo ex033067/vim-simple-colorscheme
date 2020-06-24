@@ -118,9 +118,9 @@ hi! link TabLineSel   StatusLine
 " Git diff groups
 " ===============
 
-hi  diffLine            guifg=#008B8B guibg=bg gui=bold   ctermfg=DarkCyan ctermbg=bg cterm=bold
-hi  DiffChange          guifg=fg guibg=#00008B gui=NONE   ctermfg=fg ctermbg=DarkBlue cterm=NONE
-hi  DiffText            guifg=bg guibg=#00FFFF gui=NONE   ctermfg=fg ctermbg=Cyan cterm=NONE
+hi  diffLine            guifg=#990099 guibg=bg gui=bold   ctermfg=Magenta ctermbg=bg cterm=bold
+hi! link diffText       customInvertedDark
+hi! link diffChange     customHighlight
 
 hi! link diffSubname    diffLine
 hi! link diffRemoved    customRed
