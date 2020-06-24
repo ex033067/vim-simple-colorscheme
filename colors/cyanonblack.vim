@@ -9,18 +9,18 @@
 set background=dark
 hi clear
 
-let g:colors_name = 'yellowonblack'
-let g:next_colorscheme = 'cyanonblack'
-hi Normal             guifg=#FFFF00 guibg=#181818           ctermfg=Yellow ctermbg=Black
+let g:colors_name = 'cyanonblack'
+let g:next_colorscheme = 'whiteonblack'
+hi Normal             guifg=#00FFFF guibg=#181818           ctermfg=Cyan ctermbg=Black
 
 
 " Custom groups
 " =============
 
-hi customDark         guifg=#828309 guibg=bg gui=NONE       ctermfg=DarkYellow ctermbg=bg cterm=NONE
+hi customDark         guifg=#008B8B guibg=bg gui=NONE       ctermfg=DarkCyan ctermbg=bg cterm=NONE
 hi customHighlight    guifg=#FFFFFF guibg=bg gui=NONE       ctermfg=White ctermbg=bg cterm=NONE
-hi customInvertedDark guifg=#000000 guibg=#828309           ctermfg=Black ctermbg=DarkYellow
-hi customStatusLine   guifg=#FFFFFF guibg=#828309 gui=NONE  ctermfg=White ctermbg=DarkYellow cterm=NONE
+hi customInvertedDark guifg=#000000 guibg=#008B8B           ctermfg=Black ctermbg=DarkCyan
+hi customStatusLine   guifg=#FFFFFF guibg=#008B8B gui=NONE  ctermfg=White ctermbg=DarkCyan cterm=NONE
 
 
 " Help groups
