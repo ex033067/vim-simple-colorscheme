@@ -15,7 +15,6 @@ hi customIncSearch    guifg=#000000 guibg=#990099           ctermfg=Black ctermb
 hi customSearch       guifg=#000000 guibg=#FFFFFF           ctermfg=Black ctermbg=White
 hi customErrorMsg     guifg=#FFFFFF guibg=#C02F1D           ctermfg=White ctermbg=Red
 hi customWarningMsg   guifg=#000000 guibg=#FFFF00 gui=NONE  ctermfg=Black ctermbg=Yellow cterm=NONE
-hi customTitle        guifg=#990099 guibg=bg gui=NONE       ctermfg=Magenta ctermbg=bg cterm=NONE
 hi customLine         guibg=#333333 gui=NONE                ctermbg=DarkGray cterm=NONE
 
 hi customGreen        guifg=#26CC00 guibg=NONE gui=NONE     ctermfg=Green ctermbg=NONE cterm=NONE
@@ -93,7 +92,7 @@ hi! link WildMenu   Search
 
 " Messages and user interaction
 hi! link ModeMsg    customHighlight
-hi! link Title      customTitle
+hi! link Title      customHighlight
 hi! link MoreMsg    ModeMsg
 hi! link Question   ModeMsg   | " Press ENTER or type command to continue
 hi! link ErrorMsg   customErrorMsg
@@ -217,7 +216,7 @@ hi! link fugitiveSection            customDark
 " HTML
 " ====
 
-hi! link htmlH1     customTitle
+hi! link htmlH1     customHighlight
 hi! link htmlBold   customBold
 hi! link htmlItalic customItalic
 
