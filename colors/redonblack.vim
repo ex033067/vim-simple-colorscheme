@@ -10,7 +10,7 @@ set background=dark
 hi clear
 
 let g:colors_name = 'redonblack'
-let g:next_colorscheme = 'whiteonblack'
+let g:next_colorscheme = 'blackonwhite'
 hi Normal             guifg=#FF3232 guibg=#181818           ctermfg=Red ctermbg=Black
 
 
