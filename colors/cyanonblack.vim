@@ -23,12 +23,6 @@ hi customInvertedDark guifg=#000000 guibg=#008B8B           ctermfg=Black ctermb
 hi customStatusLine   guifg=#FFFFFF guibg=#008B8B gui=NONE  ctermfg=White ctermbg=DarkCyan cterm=NONE
 
 
-" Help groups
-" ===========
-
-hi  helpHyperTextEntry  guifg=#A9A9A9                  ctermfg=Gray
-hi  helpHyperTextJump   guifg=#A9A9A9 gui=underline    ctermfg=Gray cterm=underline
-
 " Common
 " ======
 

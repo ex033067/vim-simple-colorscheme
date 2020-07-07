@@ -157,6 +157,9 @@ hi! link gitcommitUntrackedFile Normal
 " Help groups
 " ===========
 
+hi! link helpHyperTextEntry customDark
+hi! link helpHyperTextJump Underlined
+
 hi! link HelpHeader     customBold
 hi! link helpSpecial    customHighlight
 

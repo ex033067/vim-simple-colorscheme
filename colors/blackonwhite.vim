@@ -41,8 +41,6 @@ hi  DiffText         guifg=#FFA500 guibg=#EEEEEE gui=bold       ctermfg=Brown ct
 " Help groups
 " ===========
 
-hi  helpHyperTextEntry  guifg=#FFA500                ctermfg=DarkYellow
-hi  helpHyperTextJump   guifg=#FFA500 gui=underline  ctermfg=DarkYellow cterm=underline
 hi  helpSpecial         guifg=#1395BA                ctermfg=DarkCyan
 
 
