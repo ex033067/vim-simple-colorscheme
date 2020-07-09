@@ -11,7 +11,7 @@
 hi customNormal       guifg=fg guibg=bg                     ctermfg=fg ctermbg=bg
 hi customItalic       guifg=fg guibg=bg gui=italic          ctermfg=fg ctermbg=bg cterm=italic
 hi customBold         guifg=fg guibg=bg gui=bold            ctermfg=fg ctermbg=bg cterm=bold
-hi customIncSearch    guifg=#E5E5E5 guibg=#CC00CC           ctermfg=White ctermbg=Magenta
+hi customIncSearch    guifg=#000000 guibg=#FFBF00           ctermfg=Black ctermbg=DarkYellow
 hi customSearch       guifg=#000000 guibg=#E5E5E5           ctermfg=Black ctermbg=White
 hi customErrorMsg     guifg=#E5E5E5 guibg=#C02F1D           ctermfg=White ctermbg=Red
 hi customWarningMsg   guifg=#000000 guibg=#FFBF00 gui=NONE  ctermfg=Black ctermbg=Yellow cterm=NONE
