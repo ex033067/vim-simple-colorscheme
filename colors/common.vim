@@ -16,6 +16,7 @@ hi customSearch       guifg=#000000 guibg=#E5E5E5           ctermfg=Black ctermb
 hi customErrorMsg     guifg=#E5E5E5 guibg=#C02F1D           ctermfg=White ctermbg=Red
 hi customWarningMsg   guifg=#000000 guibg=#FFBF00 gui=NONE  ctermfg=Black ctermbg=Yellow cterm=NONE
 hi customLine         guibg=#333333 gui=NONE                ctermbg=DarkGray cterm=NONE
+hi customDiffText     guifg=#FFFFFF guibg=#990099 gui=NONE  ctermfg=White ctermbg=Magenta cterm=NONE
 
 hi customGreen        guifg=#26CC00 guibg=NONE gui=NONE     ctermfg=Green ctermbg=NONE cterm=NONE
 hi customRed          guifg=#C02F1D guibg=NONE gui=NONE     ctermfg=Red ctermbg=NONE cterm=NONE
@@ -118,7 +119,7 @@ hi! link TabLineSel   StatusLine
 " ===============
 
 hi  diffLine            guifg=#990099 guibg=bg gui=bold   ctermfg=Magenta ctermbg=bg cterm=bold
-hi! link diffText       customInvertedDark
+hi! link diffText       customDiffText
 hi! link diffChange     customHighlight
 
 hi! link diffSubname    diffLine
