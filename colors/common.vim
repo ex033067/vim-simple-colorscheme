@@ -9,6 +9,7 @@
 " =============
 
 hi customNormal       guifg=fg guibg=bg                     ctermfg=fg ctermbg=bg
+hi customString       guifg=#E9967A guibg=bg gui=NONE       ctermfg=LightYellow ctermbg=bg cterm=NONE
 hi customItalic       guifg=fg guibg=bg gui=italic          ctermfg=fg ctermbg=bg cterm=italic
 hi customBold         guifg=fg guibg=bg gui=bold            ctermfg=fg ctermbg=bg cterm=bold
 hi customIncSearch    guifg=#000000 guibg=#FFBF00           ctermfg=Black ctermbg=DarkYellow
@@ -41,7 +42,7 @@ hi! link EndOfBuffer Normal
 hi! link Comment    customDark
 
 hi! link Constant   Normal
-hi! link String     customItalic
+hi! link String     customString
 hi! link Number     Normal
 
 hi! link Statement  Normal
