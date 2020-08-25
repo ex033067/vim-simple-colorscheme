@@ -1,7 +1,7 @@
 # White on Black #
 
 Basic colors. Few colors.
-Best if your terminal supports _italic_.
+Best if your terminal supports _italic_ and **bold**.
 
 
 White letters over black background (whiteonblack):
