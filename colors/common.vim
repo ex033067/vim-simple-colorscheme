@@ -226,4 +226,17 @@ hi! link htmlBold   customBold
 hi! link htmlItalic customItalic
 
 
+" tabgar
+" ======
+
+hi! link TagbarFoldIcon LineNr
+hi! link TagbarVisibilityProtected LineNr
+hi! link TagbarVisibilityPublic Comment
+hi! link TagbarSignature Comment
+hi! link TagbarKind customGreen
+hi! link TagbarNestedKind customGreen
+hi! link TagbarScope customHighlight
+hi! link TagbarType Comment
+
+
 " vim: expandtab tabstop=4 shiftwidth=0 softtabstop=4
