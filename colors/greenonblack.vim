@@ -19,8 +19,9 @@ hi Normal             guifg=#1abc9c guibg=#181818           ctermfg=Green ctermb
 
 hi customDark         guifg=#12836D guibg=bg gui=NONE       ctermfg=DarkGreen ctermbg=bg cterm=NONE
 hi customHighlight    guifg=#E5E5E5 guibg=bg gui=NONE       ctermfg=White ctermbg=bg cterm=NONE
-hi customInvertedDark guifg=#000000 guibg=#1B7A43           ctermfg=Black ctermbg=DarkGreen
-hi customStatusLine   guifg=#E5E5E5 guibg=#1B7A43 gui=NONE  ctermfg=White ctermbg=DarkGreen cterm=NONE
+hi customInvertedDark guifg=#000000 guibg=#12836D           ctermfg=Black ctermbg=LightGreen
+hi customInvertedLight guifg=#E5E5E5 guibg=#12836D          ctermfg=White ctermbg=LightGreen
+hi customStatusLine   guifg=#E5E5E5 guibg=#12836D gui=NONE  ctermfg=White ctermbg=LightGreen cterm=NONE
 
 
 " Common

@@ -70,7 +70,7 @@ hi! link TermCursorNC Cursor
 hi! link lCursor      Cursor
 
 " Visual mode and Search
-hi! link Visual    customInvertedDark
+hi! link Visual    customInvertedLight
 hi! link IncSearch customIncSearch
 hi! link Search    customSearch
 
@@ -108,7 +108,7 @@ hi! link SpellLocal WarningMsg
 
 " Bars, lines and dividers
 hi! link StatusLine   customStatusLine
-hi! link StatusLineNC Visual
+hi! link StatusLineNC customInvertedDark
 hi! link VertSplit    StatusLineNC
 
 hi! link TabLine      StatusLineNC
