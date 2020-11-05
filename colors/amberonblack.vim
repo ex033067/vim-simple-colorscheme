@@ -17,11 +17,10 @@ hi Normal             guifg=#FFBF00 guibg=#181818           ctermfg=Yellow cterm
 " =============
 
 hi customDark         guifg=#B28500 guibg=bg gui=NONE       ctermfg=DarkYellow ctermbg=bg cterm=NONE
-hi customHighlight    guifg=#E5E5E5 guibg=bg gui=NONE       ctermfg=White ctermbg=bg cterm=NONE
+hi customHighlight    guifg=#CECECE guibg=bg gui=NONE       ctermfg=White ctermbg=bg cterm=NONE
 hi customInvertedDark guifg=#000000 guibg=#B28500           ctermfg=Black ctermbg=DarkYellow
-" hi customInvertedLight guifg=#E5E5E5 guibg=#B28500          ctermfg=White ctermbg=DarkYellow
-hi customInvertedLight guifg=#E5E5E5 guibg=#B28500          ctermfg=White ctermbg=DarkYellow
-hi customStatusLine   guifg=#E5E5E5 guibg=#B28500 gui=NONE  ctermfg=White ctermbg=DarkYellow cterm=NONE
+hi customInvertedLight guifg=#CECECE guibg=#B28500          ctermfg=White ctermbg=DarkYellow
+hi customStatusLine   guifg=#CECECE guibg=#B28500 gui=NONE  ctermfg=White ctermbg=DarkYellow cterm=NONE
 
 " Common
 " ======
