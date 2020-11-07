@@ -13,7 +13,7 @@ hi customString       guifg=#E9967A guibg=bg gui=italic     ctermfg=LightYellow 
 hi customItalic       guifg=fg guibg=bg gui=italic          ctermfg=fg ctermbg=bg cterm=italic
 hi customBold         guifg=fg guibg=bg gui=bold            ctermfg=fg ctermbg=bg cterm=bold
 hi customIncSearch    guifg=#000000 guibg=#FFBF00           ctermfg=Black ctermbg=DarkYellow
-hi customSearch       guifg=#000000 guibg=#E5E5E5           ctermfg=Black ctermbg=White
+hi customSearch       guifg=#000000 guibg=#CECECE           ctermfg=Black ctermbg=White
 hi customErrorMsg     guifg=#E5E5E5 guibg=#C02F1D           ctermfg=White ctermbg=Red
 hi customWarningMsg   guifg=#000000 guibg=#FFBF00 gui=NONE  ctermfg=Black ctermbg=Yellow cterm=NONE
 hi customLine         guibg=#333333 gui=NONE                ctermbg=DarkGray cterm=NONE
