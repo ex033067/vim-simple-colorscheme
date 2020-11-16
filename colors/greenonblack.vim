@@ -16,11 +16,11 @@ hi Normal             guifg=#00BB66 guibg=#181818           ctermfg=Green ctermb
 " Custom groups
 " =============
 
-hi customDark         guifg=#007766 guibg=bg gui=NONE       ctermfg=DarkGreen ctermbg=bg cterm=NONE
+hi customDark         guifg=#008866 guibg=bg gui=NONE       ctermfg=DarkGreen ctermbg=bg cterm=NONE
 hi customHighlight    guifg=#CECECE guibg=bg gui=NONE       ctermfg=White ctermbg=bg cterm=NONE
-hi customInvertedDark guifg=#000000 guibg=#007766           ctermfg=Black ctermbg=LightGreen
-hi customInvertedLight guifg=#CECECE guibg=#007766          ctermfg=White ctermbg=LightGreen
-hi customStatusLine   guifg=#CECECE guibg=#007766 gui=NONE  ctermfg=White ctermbg=LightGreen cterm=NONE
+hi customInvertedDark guifg=#000000 guibg=#008866           ctermfg=Black ctermbg=LightGreen
+hi customInvertedLight guifg=#CECECE guibg=#008866          ctermfg=White ctermbg=LightGreen
+hi customStatusLine   guifg=#CECECE guibg=#008866 gui=NONE  ctermfg=White ctermbg=LightGreen cterm=NONE
 
 
 " Common
