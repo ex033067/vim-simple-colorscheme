@@ -4,7 +4,7 @@ Comfortable colors. Few colors.
 Best if your terminal supports _italic_ and **bold**.
 
 
-White letters over black background (simple_onblack_white):
+White letters over black background (white_simple_onblack):
 
 ![White on black](whiteonblack.png)
 
@@ -15,15 +15,15 @@ Using Vundle:
 
     Plugin 'viniciusban/vim-simple-onblack-colorschemes'
     set termguicolors  | " not required, but way better
-    colorscheme simple_onblack_white
+    colorscheme white_simple_onblack
 
 Colorscheme names:
 
-- `simple_onblack_amber`
-- `simple_onblack_brown`
-- `simple_onblack_green`
-- `simple_onblack_red`
-- `simple_onblack_white`
+- `amber_simple_onblack`
+- `brown_simple_onblack`
+- `green_simple_onblack`
+- `red_simple_onblack`
+- `white_simple_onblack`
 
 
 ## License

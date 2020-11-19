@@ -9,7 +9,7 @@
 set background=dark
 hi clear
 
-let g:colors_name = 'simple_onblack_brown'
+let g:colors_name = 'brown_simple_onblack'
 hi Normal             guifg=#E59447 guibg=#181818           ctermfg=Yellow ctermbg=Black
 
 
@@ -28,7 +28,7 @@ hi customStatusLine   guifg=#CECECE guibg=#8B4513 gui=NONE  ctermfg=White ctermb
 " Common
 " ======
 
-execute 'source '. expand('<sfile>:h') .'/simple_onblack_common.vim'
+execute 'source '. expand('<sfile>:h') .'/common_simple_onblack.vim'
 
 
 " vim: expandtab tabstop=4 shiftwidth=0 softtabstop=4
