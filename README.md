@@ -14,7 +14,7 @@ White letters over black background (white_simple_onblack):
 Using Vundle:
 
     Plugin 'viniciusban/vim-simple-onblack-colorschemes'
-    set termguicolors  | " not required, but way better
+    set termguicolors
     colorscheme white_simple_onblack
 
 Colorscheme names:

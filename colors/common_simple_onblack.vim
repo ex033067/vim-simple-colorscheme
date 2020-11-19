@@ -8,17 +8,17 @@
 " Custom groups
 " =============
 
-hi customNormal       guifg=fg guibg=bg                     ctermfg=fg ctermbg=bg
-hi customString       guifg=#E9967A guibg=bg gui=italic     ctermfg=LightYellow ctermbg=bg cterm=italic
-hi customIncSearch    guifg=#000000 guibg=#FFBF00           ctermfg=Black ctermbg=DarkYellow
-hi customSearch       guifg=#000000 guibg=#CECECE           ctermfg=Black ctermbg=White
-hi customErrorMsg     guifg=#E5E5E5 guibg=#C02F1D           ctermfg=White ctermbg=Red
-hi customWarningMsg   guifg=#000000 guibg=#FFBF00 gui=NONE  ctermfg=Black ctermbg=Yellow cterm=NONE
-hi customLine         guibg=#333333 gui=NONE                ctermbg=DarkGray cterm=NONE
-hi customDiffText     guifg=#FFFFFF guibg=#3399FF gui=NONE  ctermfg=White ctermbg=Blue cterm=NONE
+hi customNormal       guifg=fg guibg=bg
+hi customString       guifg=#E9967A guibg=bg gui=italic       cterm=italic
+hi customIncSearch    guifg=#000000 guibg=#FFBF00
+hi customSearch       guifg=#000000 guibg=#CECECE
+hi customErrorMsg     guifg=#E5E5E5 guibg=#C02F1D
+hi customWarningMsg   guifg=#000000 guibg=#FFBF00 gui=NONE    cterm=NONE
+hi customLine         guibg=#333333 gui=NONE                  cterm=NONE
+hi customDiffText     guifg=#FFFFFF guibg=#3399FF gui=NONE    cterm=NONE
 
-hi customGreen        guifg=#26CC00 guibg=NONE gui=NONE     ctermfg=Green ctermbg=NONE cterm=NONE
-hi customRed          guifg=#C02F1D guibg=NONE gui=NONE     ctermfg=Red ctermbg=NONE cterm=NONE
+hi customGreen        guifg=#26CC00 guibg=NONE gui=NONE       cterm=NONE
+hi customRed          guifg=#C02F1D guibg=NONE gui=NONE       cterm=NONE
 
 
 " Separated groups
@@ -52,7 +52,7 @@ hi! link Todo       customHighlight
 
 hi! link Error      customRed
 
-hi Underlined       guifg=fg guibg=bg gui=underline     ctermfg=fg ctermbg=bg cterm=underline
+hi Underlined       guifg=fg guibg=bg gui=underline       cterm=underline
 
 
 " Elements of interface
@@ -62,7 +62,7 @@ hi Underlined       guifg=fg guibg=bg gui=underline     ctermfg=fg ctermbg=bg ct
 let &t_SI = "\<Esc>]12;green\x7" | " solid non-blinking cursor
 let &t_SR = &t_SI
 let &t_EI = &t_SI
-hi  Cursor            guibg=#26CC00 ctermbg=Green
+hi  Cursor            guibg=#26CC00
 hi! link TermCursor   Cursor
 hi! link TermCursorNC Cursor
 hi! link lCursor      Cursor
@@ -81,7 +81,7 @@ hi! link LineNr       Comment
 hi! link SignColumn   Normal
 hi! link Folded       customDark
 hi! link FoldColumn   Folded
-hi  MatchParen        guibg=NONE gui=underline    ctermbg=NONE cterm=underline
+hi  MatchParen        guibg=NONE gui=underline     cterm=underline
 
 " Menus
 hi! link Pmenu      Visual
@@ -167,7 +167,7 @@ hi! link helpOption     helpSpecial
 hi! link helpExample    customHighlight
 hi! link helpCommand    customBold
 hi! link helpNote       Todo
-hi  helpSectionDelim    guifg=#A9A9A9                ctermfg=DarkGray
+hi  helpSectionDelim    guifg=#A9A9A9
 
 hi! link helpNotVi      helpSpecial
 hi! link helpHeadline   HelpHeader
