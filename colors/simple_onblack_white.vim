@@ -10,7 +10,7 @@ set background=dark
 hi clear
 
 let g:colors_name = 'simple_onblack_white'
-hi Normal             guifg=#E5E5E5 guibg=#181818           ctermfg=White ctermbg=Black
+hi Normal             guifg=#E0E0E0 guibg=#181818           ctermfg=White ctermbg=Black
 
 
 " Custom groups
