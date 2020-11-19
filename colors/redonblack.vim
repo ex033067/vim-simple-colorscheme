@@ -10,13 +10,13 @@ set background=dark
 hi clear
 
 let g:colors_name = 'redonblack'
-hi Normal             guifg=#e74c3c guibg=#181818           ctermfg=Red ctermbg=Black
+hi Normal             guifg=#FF3A3A guibg=#181818           ctermfg=Red ctermbg=Black
 
 
 " Custom groups
 " =============
 
-hi customDark         guifg=#AC3326 guibg=bg gui=NONE       ctermfg=LightRed ctermbg=bg cterm=NONE
+hi customDark         guifg=#DD3A3A guibg=bg gui=NONE       ctermfg=DarkRed ctermbg=bg cterm=NONE
 hi customHighlight    guifg=#CECECE guibg=bg gui=NONE       ctermfg=White ctermbg=bg cterm=NONE
 hi customInvertedDark guifg=#000000 guibg=#AC3326           ctermfg=Black ctermbg=LightRed
 hi customInvertedLight guifg=#CECECE guibg=#AC3326          ctermfg=White ctermbg=LightRed
