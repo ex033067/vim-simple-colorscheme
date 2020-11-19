@@ -1,4 +1,4 @@
-" Common settings for all colorschemes
+" Common settings for all simple colorschemes
 "
 " Color codes from:
 "   - https://www.rapidtables.com/web/color/RGB_Color.html
