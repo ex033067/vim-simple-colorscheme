@@ -10,7 +10,6 @@
 
 hi customNormal       guifg=fg guibg=bg                     ctermfg=fg ctermbg=bg
 hi customString       guifg=#E9967A guibg=bg gui=italic     ctermfg=LightYellow ctermbg=bg cterm=italic
-hi customItalic       guifg=#E9967A guibg=bg gui=italic     ctermfg=LightYellow ctermbg=bg cterm=italic
 hi customIncSearch    guifg=#000000 guibg=#FFBF00           ctermfg=Black ctermbg=DarkYellow
 hi customSearch       guifg=#000000 guibg=#CECECE           ctermfg=Black ctermbg=White
 hi customErrorMsg     guifg=#E5E5E5 guibg=#C02F1D           ctermfg=White ctermbg=Red

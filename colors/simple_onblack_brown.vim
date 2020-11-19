@@ -19,6 +19,7 @@ hi Normal             guifg=#E59447 guibg=#181818           ctermfg=Yellow cterm
 hi customDark         guifg=#A0522D guibg=bg gui=NONE       ctermfg=DarkYellow ctermbg=bg cterm=NONE
 hi customHighlight    guifg=#CECECE guibg=bg gui=NONE       ctermfg=White ctermbg=bg cterm=NONE
 hi customBold         guifg=#EFBE90 guibg=bg gui=bold       ctermfg=LightYellow ctermbg=bg cterm=bold
+hi customItalic       guifg=#BF9873 guibg=bg gui=italic     ctermfg=DarkYellow ctermbg=bg cterm=italic
 hi customInvertedDark guifg=#000000 guibg=#8B4513           ctermfg=Black ctermbg=DarkYellow
 hi customInvertedLight guifg=#CECECE guibg=#8B4513          ctermfg=White ctermbg=DarkYellow
 hi customStatusLine   guifg=#CECECE guibg=#8B4513 gui=NONE  ctermfg=White ctermbg=DarkYellow cterm=NONE
