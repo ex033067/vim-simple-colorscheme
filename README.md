@@ -9,19 +9,13 @@ White letters over black background (simple_onblack_white):
 ![White on black](whiteonblack.png)
 
 
-Amber letters over black background (simple_onblack_amber):
-
-![Yellow on black](yellowonblack.png)
-
-
-
 ## Installation ##
 
 Using Vundle:
 
     Plugin 'viniciusban/vim-simple-onblack-colorschemes'
     set termguicolors  | " not required, but way better
-    colorscheme simple_onblack_white | " or simple_onblack_green, amber_onblack...
+    colorscheme simple_onblack_white
 
 Colorscheme names:
 
