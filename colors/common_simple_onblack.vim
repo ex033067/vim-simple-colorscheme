@@ -81,7 +81,7 @@ hi! link LineNr       Comment
 hi! link SignColumn   Normal
 hi! link Folded       customDark
 hi! link FoldColumn   Folded
-hi  MatchParen        guibg=NONE gui=underline     cterm=underline
+hi  MatchParen        guibg=NONE gui=underline     ctermbg=NONE cterm=underline
 
 " Menus
 hi! link Pmenu      Visual
