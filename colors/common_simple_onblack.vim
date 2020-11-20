@@ -18,7 +18,7 @@ hi customLine         guibg=#333333 gui=NONE                  cterm=NONE
 hi customDiffText     guifg=#FFFFFF guibg=#3399FF gui=NONE    cterm=NONE
 
 hi customGreen        guifg=#26CC00 guibg=NONE gui=NONE       cterm=NONE
-hi customRed          guifg=#C02F1D guibg=NONE gui=NONE       cterm=NONE
+hi customRed          guifg=#A02F1D guibg=NONE gui=NONE       cterm=NONE
 
 
 " Separated groups
