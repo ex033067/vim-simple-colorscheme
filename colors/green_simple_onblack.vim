@@ -17,7 +17,7 @@ hi Normal             guifg=#00CC66 guibg=#181818
 " =============
 
 hi customDark         guifg=#008866 guibg=bg gui=NONE         cterm=NONE
-hi customHighlight    guifg=#CECECE guibg=bg gui=NONE         cterm=NONE
+hi customHighlight    guifg=#BFBFBF guibg=bg gui=NONE         cterm=NONE
 hi customBold         guifg=#00EE66 guibg=bg gui=bold         cterm=bold
 hi customItalic       guifg=#009933 guibg=bg gui=italic       cterm=italic
 hi customInvertedDark guifg=#000000 guibg=#008866
