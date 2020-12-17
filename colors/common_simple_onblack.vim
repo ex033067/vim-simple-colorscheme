@@ -9,16 +9,16 @@
 " =============
 
 hi customNormal       guifg=fg guibg=bg
-hi customString       guifg=DarkSalmon guibg=bg gui=italic       cterm=italic
-hi customIncSearch    guifg=black guibg=goldenrod1
-hi customSearch       guifg=black guibg=DarkGray
-hi customErrorMsg     guifg=gray88 guibg=brown3
-hi customWarningMsg   guifg=black guibg=goldenrod1 gui=NONE    cterm=NONE
-hi customLine         guibg=gray20 gui=NONE                  cterm=NONE
-hi customDiffText     guifg=white guibg=DodgerBlue1 gui=NONE    cterm=NONE
+hi customString       guifg=#E9967A guibg=bg gui=italic       cterm=italic
+hi customIncSearch    guifg=#000000 guibg=#FFBF00
+hi customSearch       guifg=#000000 guibg=#ACACAC
+hi customErrorMsg     guifg=#E5E5E5 guibg=#C02F1D
+hi customWarningMsg   guifg=#000000 guibg=#FFBF00 gui=NONE    cterm=NONE
+hi customLine         guibg=#333333 gui=NONE                  cterm=NONE
+hi customDiffText     guifg=#FFFFFF guibg=#3399FF gui=NONE    cterm=NONE
 
-hi customGreen        guifg=LimeGreen guibg=NONE gui=NONE       cterm=NONE
-hi customRed          guifg=brown guibg=NONE gui=NONE       cterm=NONE
+hi customGreen        guifg=#26CC00 guibg=NONE gui=NONE       cterm=NONE
+hi customRed          guifg=#A02F1D guibg=NONE gui=NONE       cterm=NONE
 
 
 " Separated groups
@@ -62,7 +62,7 @@ hi Underlined       guifg=fg guibg=bg gui=underline       cterm=underline
 let &t_SI = "\<Esc>]12;green\x7" | " solid non-blinking cursor
 let &t_SR = &t_SI
 let &t_EI = &t_SI
-hi  Cursor            guibg=LimeGreen
+hi  Cursor            guibg=#26CC00
 hi! link TermCursor   Cursor
 hi! link TermCursorNC Cursor
 hi! link lCursor      Cursor
@@ -167,7 +167,7 @@ hi! link helpOption     helpSpecial
 hi! link helpExample    customHighlight
 hi! link helpCommand    customBold
 hi! link helpNote       Todo
-hi  helpSectionDelim    guifg=DarkGray
+hi  helpSectionDelim    guifg=#A9A9A9
 
 hi! link helpNotVi      helpSpecial
 hi! link helpHeadline   HelpHeader
