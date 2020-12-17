@@ -10,19 +10,19 @@ set background=dark
 hi clear
 
 let g:colors_name = 'green_simple_onblack'
-hi Normal             guifg=#00CC66 guibg=#181818
+hi Normal             guifg=SpringGreen3 guibg=gray9
 
 
 " Custom groups
 " =============
 
-hi customDark         guifg=#008866 guibg=bg gui=NONE         cterm=NONE
-hi customHighlight    guifg=#BFBFBF guibg=bg gui=NONE         cterm=NONE
-hi customBold         guifg=#00EE66 guibg=bg gui=bold         cterm=bold
-hi customItalic       guifg=#009933 guibg=bg gui=italic       cterm=italic
-hi customInvertedDark guifg=#000000 guibg=#008866
-hi customInvertedLight guifg=#CECECE guibg=#008866
-hi customStatusLine   guifg=#CECECE guibg=#008866 gui=NONE    cterm=NONE
+hi customDark         guifg=SpringGreen4 guibg=bg gui=NONE         cterm=NONE
+hi customHighlight    guifg=gray76 guibg=bg gui=NONE         cterm=NONE
+hi customBold         guifg=SpringGreen2 guibg=bg gui=bold         cterm=bold
+hi customItalic       guifg=MediumSeaGreen guibg=bg gui=italic       cterm=italic
+hi customInvertedDark guifg=black guibg=SpringGreen4
+hi customInvertedLight guifg=LightGray guibg=SpringGreen4
+hi customStatusLine   guifg=LightGray guibg=SpringGreen4 gui=NONE    cterm=NONE
 
 
 " Common
