@@ -11,7 +11,7 @@
 hi customNormal       guifg=fg guibg=bg
 hi customString       guifg=#E9967A guibg=bg gui=italic       cterm=italic
 hi customIncSearch    guifg=#000000 guibg=#FFBF00
-hi customSearch       guifg=#000000 guibg=#CECECE
+hi customSearch       guifg=#000000 guibg=#ACACAC
 hi customErrorMsg     guifg=#E5E5E5 guibg=#C02F1D
 hi customWarningMsg   guifg=#000000 guibg=#FFBF00 gui=NONE    cterm=NONE
 hi customLine         guibg=#333333 gui=NONE                  cterm=NONE
