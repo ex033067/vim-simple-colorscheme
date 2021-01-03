@@ -14,8 +14,8 @@ hi customErrorMsg     guifg=#E5E5E5 guibg=#C02F1D
 hi customLine                       guibg=#333333 gui=NONE    cterm=NONE
 hi customDiffText     guifg=#E5E5E5 guibg=#3399FF gui=NONE    cterm=NONE
 
-hi customPositive     guifg=#26CC00 guibg=NONE    gui=NONE    cterm=NONE
-hi customNegative     guifg=#A02F1D guibg=NONE    gui=NONE    cterm=NONE
+hi customPositive     guifg=#00FF00 guibg=NONE    gui=NONE    cterm=NONE
+hi customNegative     guifg=#FF0000 guibg=NONE    gui=NONE    cterm=NONE
 hi customAttention    guifg=#D88724 guibg=NONE    gui=NONE    cterm=NONE
 
 
