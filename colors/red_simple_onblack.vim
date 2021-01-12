@@ -14,7 +14,7 @@ let g:colors_name = 'red_simple_onblack'
 hi Normal              guifg=#E74C3C guibg=#181818
 hi customDarker        guifg=#B83C30 guibg=bg      gui=NONE    cterm=NONE
 hi customTitle         guifg=#BFBFBF guibg=bg      gui=NONE    cterm=NONE
-hi customBold          guifg=#DD6A6A guibg=bg      gui=bold    cterm=bold
+hi customBold          guifg=#FF0000 guibg=bg      gui=bold    cterm=bold
 hi customItalic        guifg=#AA6A6A guibg=bg      gui=italic  cterm=italic
 hi customInvertedDark  guifg=#000000 guibg=#B83C30
 hi customInvertedLight guifg=#CECECE guibg=#B83C30
