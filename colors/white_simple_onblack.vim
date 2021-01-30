@@ -12,6 +12,7 @@ hi clear
 let g:colors_name = 'white_simple_onblack'
 
 hi Normal              guifg=#BFBFBF guibg=#181818
+hi customHighlight     guifg=#FFFFFF guibg=bg      gui=NONE    cterm=NONE
 hi customDarker        guifg=#838383 guibg=bg      gui=NONE    cterm=NONE
 hi customTitle         guifg=#D0C000 guibg=bg      gui=NONE    cterm=NONE
 hi customBold          guifg=#FFFFFF guibg=bg      gui=bold    cterm=bold

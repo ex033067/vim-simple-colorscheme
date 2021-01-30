@@ -12,6 +12,7 @@ hi clear
 let g:colors_name = 'amber_simple_onblack'
 
 hi Normal              guifg=#FFBF00 guibg=#181818
+hi customHighlight     guifg=#D0D000 guibg=bg      gui=NONE    cterm=NONE
 hi customDarker        guifg=#B28500 guibg=bg      gui=NONE    cterm=NONE
 hi customTitle         guifg=#BFBFBF guibg=bg      gui=NONE    cterm=NONE
 hi customBold          guifg=#D0D000 guibg=bg      gui=bold    cterm=bold

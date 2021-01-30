@@ -166,8 +166,8 @@ hi! link helpHyperTextJump  Underlined
 hi! link HelpHeader     customBold
 hi! link helpSpecial    customTitle
 
-hi! link helpOption     customTitle
-hi! link helpExample    customTitle
+hi! link helpOption     customHighlight
+hi! link helpExample    customHighlight
 hi! link helpCommand    customBold
 hi! link helpNote       customTitle
 hi  helpSectionDelim    guifg=#A9A9A9
