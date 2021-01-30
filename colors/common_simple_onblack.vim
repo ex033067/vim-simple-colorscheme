@@ -81,8 +81,8 @@ hi! link FoldColumn   customDarker
 hi! link MatchParen   Underlined
 
 " Menus
-hi! link Pmenu        customInvertedLight
-hi! link PmenuSel     customInvertedLight
+hi! link Pmenu        customInvertedDark
+hi! link PmenuSel     customVisual
 hi! link PmenuSbar    customInvertedLight
 hi! link PmenuThumb   Normal
 hi! link WildMenu     customInvertedLight
