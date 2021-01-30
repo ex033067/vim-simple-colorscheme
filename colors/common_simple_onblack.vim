@@ -13,6 +13,7 @@ hi customWarningMsg   guifg=#000000 guibg=#D88724
 hi customErrorMsg     guifg=#E5E5E5 guibg=#C02F1D
 hi customLine                       guibg=#333333 gui=NONE    cterm=NONE
 hi customDiffText     guifg=#E5E5E5 guibg=#3399FF gui=NONE    cterm=NONE
+hi customVisual       guifg=#000000 guibg=#84C1FF gui=NONE    cterm=NONE
 
 hi customPositive     guifg=#00FF00 guibg=NONE    gui=NONE    cterm=NONE
 hi customNegative     guifg=#FF0000 guibg=NONE    gui=NONE    cterm=NONE
@@ -64,8 +65,8 @@ hi! link TermCursorNC Cursor
 hi! link lCursor      Cursor
 
 " Visual mode and Search
-hi! link Visual       customInvertedLight
-hi! link Search       customInvertedLight
+hi! link Visual       customVisual
+hi! link Search       customVisual
 hi! link IncSearch    customWarningMsg
 
 " Indicators and references
