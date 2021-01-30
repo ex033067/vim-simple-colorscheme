@@ -163,13 +163,11 @@ hi! link gitcommitUntrackedFile Normal
 hi! link helpHyperTextEntry customDarker
 hi! link helpHyperTextJump  Underlined
 
-hi! link HelpHeader     customBold
-hi! link helpSpecial    customTitle
+hi! link helpSpecial    Special
 
 hi! link helpOption     customHighlight
 hi! link helpExample    customHighlight
 hi! link helpCommand    customBold
-hi! link helpNote       customTitle
 hi  helpSectionDelim    guifg=#A9A9A9
 
 hi! link helpNotVi      customTitle
