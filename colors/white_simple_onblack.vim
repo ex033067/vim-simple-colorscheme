@@ -18,7 +18,7 @@ hi customTitle         guifg=#D0C000 guibg=bg      gui=NONE    cterm=NONE
 hi customBold          guifg=#FFFFFF guibg=bg      gui=bold    cterm=bold
 hi customItalic        guifg=#A0A066 guibg=bg      gui=italic  cterm=italic
 hi customInvertedDark  guifg=#000000 guibg=#6A6A6A
-hi customInvertedLight guifg=#000000 guibg=#6A6A6A gui=bold cterm=bold
+hi customInvertedLight guifg=#FFFFFF guibg=#6A6A6A gui=NONE cterm=NONE
 
 execute 'source '. expand('<sfile>:h') .'/common_simple_onblack.vim'
 
