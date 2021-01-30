@@ -231,4 +231,9 @@ hi! link TagbarScope               customTitle
 hi! link TagbarType                customDarker
 
 
+" javascript
+" ==========
+
+hi! link jsThis Normal
+
 " vim: expandtab tabstop=4 shiftwidth=0 softtabstop=4
