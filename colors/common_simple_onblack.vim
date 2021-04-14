@@ -19,6 +19,11 @@ hi customPositive     guifg=#00FF00 guibg=NONE    gui=NONE    cterm=NONE
 hi customNegative     guifg=#FF0000 guibg=NONE    gui=NONE    cterm=NONE
 hi customAttention    guifg=#D88724 guibg=NONE    gui=NONE    cterm=NONE
 
+if &background == 'light'
+    hi customString       guifg=#096595 guibg=bg      gui=italic  cterm=italic
+    hi customLine                       guibg=#EEEEEE gui=NONE cterm=NONE
+    hi customPositive     guifg=#00CD00 guibg=NONE    gui=NONE cterm=NONE
+endif
 
 " Separated groups
 " ================
