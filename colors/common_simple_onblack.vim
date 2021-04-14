@@ -164,7 +164,7 @@ hi! link gitcommitUntrackedFile Normal
 hi! link helpHyperTextEntry customDarker
 hi! link helpHyperTextJump  Underlined
 
-hi! link helpSpecial    Special
+hi! link helpSpecial    SpecialKey
 
 hi! link helpOption     customHighlight
 hi! link helpExample    customHighlight
