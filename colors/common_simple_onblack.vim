@@ -180,18 +180,18 @@ hi! link helpWarning    customWarningMsg
 " ========
 
 hi! link NERDTreeHelp           Normal
-hi! link NERDTreeHelpTitle      customBold
-hi! link NERDTreeHelpKey        customDarker
-hi! link NERDTreeHelpCommand    customDarker
+hi! link NERDTreeHelpTitle      customTitle
+hi! link NERDTreeHelpKey        customNormal
+hi! link NERDTreeHelpCommand    customNormal
 hi! link NERDTreeToggleOff      customNegative
 hi! link NERDTreeToggleOn       customPositive
 
 hi! link NERDTreeUp             customDarker
-hi! link NERDTreeCWD            Normal
-hi! link NERDTreeDir            customDarker
-hi! link NERDTreeDirSlash       customDarker
+hi! link NERDTreeCWD            customHighlight
+hi! link NERDTreeDir            Normal
+hi! link NERDTreeDirSlash       Normal
 hi! link NERDTreeFile           Normal
-hi! link NERDTreeExecFile       customTitle
+hi! link NERDTreeExecFile       customHighlight
 
 
 " vim-fugitive
