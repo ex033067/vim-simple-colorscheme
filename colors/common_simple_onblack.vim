@@ -36,7 +36,7 @@ hi! link Ignore       customDarker
 hi! link Conceal      customDarker
 hi! link NonText      customDarker
 hi! link EndOfBuffer  Normal
-hi! link QuickFixLine Search
+hi! link QuickFixLine CursorLine
 
 
 " Syntax groups
