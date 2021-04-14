@@ -13,7 +13,7 @@ hi customWarningMsg   guifg=#000000 guibg=#D88724
 hi customErrorMsg     guifg=#E5E5E5 guibg=#C02F1D
 hi customLine                       guibg=#333333 gui=NONE    cterm=NONE
 hi customDiffText     guifg=#E5E5E5 guibg=#3399FF gui=NONE    cterm=NONE
-hi customSelected     guifg=bg      guibg=fg gui=NONE    cterm=NONE
+hi customInverted     guifg=bg      guibg=fg gui=NONE    cterm=NONE
 
 hi customPositive     guifg=#00FF00 guibg=NONE    gui=NONE    cterm=NONE
 hi customNegative     guifg=#FF0000 guibg=NONE    gui=NONE    cterm=NONE
@@ -70,7 +70,7 @@ hi! link TermCursorNC Cursor
 hi! link lCursor      Cursor
 
 " Visual mode and Search
-hi! link Visual       customSelected
+hi! link Visual       customInverted
 hi! link Search       customInvertedHighlight
 hi! link IncSearch    customWarningMsg
 
@@ -87,10 +87,10 @@ hi! link FoldColumn   customDarker
 
 " Menus
 hi! link Pmenu        customInvertedDark
-hi! link PmenuSel     customSelected
+hi! link PmenuSel     customInverted
 hi! link PmenuSbar    customInvertedLight
 hi! link PmenuThumb   Normal
-hi! link WildMenu     customSelected
+hi! link WildMenu     customInverted
 
 " Messages and user interaction
 hi! link ModeMsg      customTitle
