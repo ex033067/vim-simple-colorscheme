@@ -71,7 +71,7 @@ hi! link lCursor      Cursor
 
 " Visual mode and Search
 hi! link Visual       customSelected
-hi! link Search       customSelected
+hi! link Search       customInvertedHighlight
 hi! link IncSearch    customWarningMsg
 
 " Indicators and references
