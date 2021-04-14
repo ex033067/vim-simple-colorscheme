@@ -236,4 +236,12 @@ hi! link TagbarType                customDarker
 
 hi! link jsThis Normal
 
+
+" python
+" ======
+
+hi! link pythonStrInterpRegion customString
+hi! link pythonStrFormat customString
+hi! link pythonStrFormatting customString
+
 " vim: expandtab tabstop=4 shiftwidth=0 softtabstop=4
