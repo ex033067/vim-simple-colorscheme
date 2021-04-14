@@ -70,6 +70,7 @@ hi! link Search       customSelected
 hi! link IncSearch    customWarningMsg
 
 " Indicators and references
+hi MatchParen         guibg=bg      gui=underline  cterm=underline
 hi! link CursorLine   customLine
 hi! link CursorColumn customLine
 hi! link CursorLineNr customLine
@@ -78,7 +79,6 @@ hi! link LineNr       customDarker
 hi! link SignColumn   Normal
 hi! link Folded       customDarker
 hi! link FoldColumn   customDarker
-hi! link MatchParen   Underlined
 
 " Menus
 hi! link Pmenu        customInvertedDark
