@@ -9,7 +9,7 @@
 set background=dark
 hi clear
 
-let g:colors_name = 'brown_simple_onblack'
+let g:colors_name = 'brown_onblack'
 
 hi Normal              guifg=#D59447 guibg=#181818
 hi customHighlight     guifg=#DEAC71 guibg=bg      gui=NONE    cterm=NONE
@@ -21,6 +21,6 @@ hi customInvertedHighlight guifg=bg  guibg=#DEAC71
 hi customInvertedDark  guifg=#000000 guibg=#8B4513
 hi customInvertedLight guifg=#CECECE guibg=#8B4513
 
-execute 'source '. expand('<sfile>:h') .'/common_simple_onblack.vim'
+execute 'source '. expand('<sfile>:h') .'/common_onblack.vim'
 
 " vim: expandtab tabstop=4 shiftwidth=0 softtabstop=4
