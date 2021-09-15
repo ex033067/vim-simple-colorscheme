@@ -8,7 +8,7 @@
 " Custom groups
 " =============
 
-hi customString       guifg=#0B85C5 guibg=bg      gui=italic  cterm=italic
+hi customString       guifg=#6699FF guibg=bg      gui=italic  cterm=italic
 hi customWarningMsg   guifg=#000000 guibg=#D88724
 hi customErrorMsg     guifg=#E5E5E5 guibg=#C02F1D
 hi customLine                       guibg=#333333 gui=NONE    cterm=NONE
