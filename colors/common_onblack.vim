@@ -8,51 +8,44 @@
 " Custom groups
 " =============
 
-hi customString       guifg=#6699FF guibg=bg      gui=italic  cterm=italic
-hi customWarningMsg   guifg=#000000 guibg=#D88724
-hi customErrorMsg     guifg=#E5E5E5 guibg=#C02F1D
-hi customLine                       guibg=#333333 gui=NONE    cterm=NONE
-hi customDiffText     guifg=#E5E5E5 guibg=#3399FF gui=NONE    cterm=NONE
-hi customInverted     guifg=bg      guibg=fg gui=NONE    cterm=NONE
-
-hi customPositive     guifg=#00FF00 guibg=NONE    gui=NONE    cterm=NONE
-hi customNegative     guifg=#FF0000 guibg=NONE    gui=NONE    cterm=NONE
-hi customAttention    guifg=#D88724 guibg=NONE    gui=NONE    cterm=NONE
-
-if &background == 'light'
-    hi customString       guifg=#096595 guibg=bg      gui=italic  cterm=italic
-    hi customLine                       guibg=#EEEEEE gui=NONE cterm=NONE
-    hi customPositive     guifg=#00CD00 guibg=NONE    gui=NONE cterm=NONE
-endif
+" if &background == 'light'
+"     hi customString       guifg=#096595 guibg=bg      gui=italic  cterm=italic
+"     hi customLightBackground                       guibg=#EEEEEE gui=NONE cterm=NONE
+"     hi customPositive     guifg=#00CD00 guibg=NONE    gui=NONE cterm=NONE
+" endif
 
 " Separated groups
 " ================
 
-hi! link Directory    customDarker
+hi! link Directory    customDark
 hi! link Special      customAttention
 hi! link SpecialKey   customAttention
 
-hi! link Ignore       customDarker
-hi! link Conceal      customDarker
-hi! link NonText      customDarker
-hi! link EndOfBuffer  Normal
-hi QuickFixLine       guibg=#03396C gui=NONE    cterm=NONE
+hi! link Ignore       customDark
+hi! link Conceal      customDark
+hi! link NonText      customDark
+hi! link EndOfBuffer  customNormal
+hi! link QuickFixLine customHighlightedText
+hi! link qfFileName   customDarker
+hi! link qflineNr     customDarker
+
+
 
 
 " Syntax groups
 " =============
 
-hi! link Comment    customDarker
-hi! link Constant   Normal
+hi! link Comment    customDark
+hi! link Constant   customNormal
 hi! link String     customString
-hi! link Number     Normal
+hi! link Number     customNormal
 
-hi! link Statement  Normal
-hi! link Type       Normal
-hi! link PreProc    Normal
-hi! link Identifier Normal
+hi! link Statement  customNormal
+hi! link Type       customNormal
+hi! link PreProc    customNormal
+hi! link Identifier customNormal
 
-hi! link Todo       customTitle
+hi! link Todo       customHighlightedText
 hi! link Error      customNegative
 hi Underlined       guifg=fg         guibg=bg      gui=underline  cterm=underline
 
@@ -70,33 +63,33 @@ hi! link TermCursorNC Cursor
 hi! link lCursor      Cursor
 
 " Visual mode and Search
-hi! link Visual       customInverted
-hi! link Search       customWarningMsg
+hi! link Visual       customInvertedNormal
+hi! link Search       customSearch
 hi! link IncSearch    customInvertedHighlight
 
 " Indicators and references
 hi MatchParen         guibg=bg      gui=underline  cterm=underline
-hi! link CursorLine   customLine
-hi! link CursorColumn customLine
-hi! link CursorLineNr customLine
-hi! link ColorColumn  customLine
-hi! link LineNr       customDarker
-hi! link SignColumn   Normal
-hi! link Folded       customDarker
-hi! link FoldColumn   customDarker
+hi! link CursorLine   customLightBackground
+hi! link CursorColumn customLightBackground
+hi! link CursorLineNr customLightBackground
+hi! link ColorColumn  customLightBackground
+hi! link LineNr       customDark
+hi! link SignColumn   customNormal
+hi! link Folded       customDark
+hi! link FoldColumn   customDark
 
 " Menus
 hi! link Pmenu        customInvertedDark
-hi! link PmenuSel     customInverted
-hi! link PmenuSbar    customInvertedLight
-hi! link PmenuThumb   Normal
-hi! link WildMenu     customInverted
+hi! link PmenuSel     customInvertedNormal
+hi! link PmenuSbar    customInvertedNormal
+hi! link PmenuThumb   customNormal
+hi! link WildMenu     customInvertedNormal
 
 " Messages and user interaction
-hi! link ModeMsg      customTitle
-hi! link MoreMsg      customTitle
+hi! link ModeMsg      customHighlightedText
+hi! link MoreMsg      customHighLightedText
+hi! link Question     customHighlightedText    | " Press ENTER or type command to continue
 hi! link Title        customTitle
-hi! link Question     customTitle    | " Press ENTER or type command to continue
 hi! link ErrorMsg     customErrorMsg
 hi! link WarningMsg   customWarningMsg
 
@@ -107,28 +100,28 @@ hi! link SpellRare    customWarningMsg
 hi! link SpellLocal   customWarningMsg
 
 " Bars, lines and dividers
-hi! link StatusLine   customInvertedLight
+hi! link StatusLine   customStatusLine
 hi! link StatusLineNC customInvertedDark
 hi! link VertSplit    customInvertedDark
 
 hi! link TabLine      customInvertedDark
 hi! link TabLineFill  customInvertedDark
-hi! link TabLineSel   customInvertedLight
+hi! link TabLineSel   customInvertedNormal
 
 
 " Git diff groups
 " ===============
 
-hi! link diffLine       customTitle
+hi! link diffLine       customHighlightedText
 hi! link diffText       customDiffText
-hi! link diffChange     customTitle
+hi! link diffChange     customAttention
 
-hi! link diffSubname    customTitle
+hi! link diffSubname    customHighlightedText
 hi! link diffRemoved    customNegative
 hi! link diffAdded      customPositive
-hi! link diffFile       Normal
-hi! link diffNewFile    Normal
-hi! link diffIndexLine  Normal
+hi! link diffFile       customNormal
+hi! link diffNewFile    customNormal
+hi! link diffIndexLine  customNormal
 
 hi! link DiffAdd        customPositive
 hi! link DiffDelete     customNegative
@@ -145,34 +138,34 @@ hi! link htmlItalic customItalic
 " Git commit groups
 " =================
 
-hi! link gitcommitSummary Normal
+hi! link gitcommitSummary customNormal
 hi! link gitcommitBlank   customWarningMsg
 hi! link gitcommitBranch  customBold
-hi! link gitcommitHeader  Normal
-hi! link gitcommitDiff    Normal
+hi! link gitcommitHeader  customNormal
+hi! link gitcommitDiff    customNormal
 
-hi! link gitcommitSelected     customDarker
+hi! link gitcommitSelected     customDark
 hi! link gitcommitSelectedType customPositive
 hi! link gitcommitSelectedFile customPositive
 
-hi! link gitcommitDiscarded     customDarker
+hi! link gitcommitDiscarded     customDark
 hi! link gitcommitDiscardedType customNegative
 hi! link gitcommitDiscardedFile customNegative
 
-hi! link gitcommitUntracked     customDarker
-hi! link gitcommitUntrackedFile Normal
+hi! link gitcommitUntracked     customDark
+hi! link gitcommitUntrackedFile customNormal
 
 
 " Help groups
 " ===========
 
-hi! link helpHyperTextEntry customDarker
+hi! link helpHyperTextEntry customDark
 hi! link helpHyperTextJump  Underlined
 
 hi! link helpSpecial    SpecialKey
 
-hi! link helpOption     customHighlight
-hi! link helpExample    customHighlight
+hi! link helpOption     customBright
+hi! link helpExample    customBright
 hi! link helpCommand    customBold
 hi  helpSectionDelim    guifg=#A9A9A9
 
@@ -184,62 +177,66 @@ hi! link helpWarning    customWarningMsg
 " NERDTree
 " ========
 
-hi! link NERDTreeHelp           Normal
+hi! link NERDTreeHelp           customNormal
 hi! link NERDTreeHelpTitle      customTitle
-hi! link NERDTreeHelpKey        customNormal
-hi! link NERDTreeHelpCommand    customNormal
+hi! link NERDTreeHelpKey        customcustomNormal
+hi! link NERDTreeHelpCommand    customcustomNormal
 hi! link NERDTreeToggleOff      customNegative
 hi! link NERDTreeToggleOn       customPositive
 
-hi! link NERDTreeUp             customDarker
-hi! link NERDTreeCWD            customHighlight
-hi! link NERDTreeDir            Normal
-hi! link NERDTreeDirSlash       Normal
-hi! link NERDTreeFile           Normal
-hi! link NERDTreeExecFile       customHighlight
+hi! link NERDTreeUp             customDark
+hi! link NERDTreeCWD            customBright
+hi! link NERDTreeDir            customNormal
+hi! link NERDTreeDirSlash       customNormal
+hi! link NERDTreeFile           customNormal
+hi! link NERDTreeExecFile       customBright
 
 
 " vim-fugitive
 " ============
 
-hi! link fugitiveHeader             Normal
-hi! link fugitiveSymbolicRef        customDarker
+hi! link fugitiveHeader             customNormal
+hi! link fugitiveSymbolicRef        customDark
 
-hi! link fugitiveCount              Normal
-hi! link fugitiveUntrackedHeading   Normal
-hi! link fugitiveUntrackedModifier  customDarker
-hi! link fugitiveUntrackedSection   customDarker
+hi! link fugitiveCount              customNormal
+hi! link fugitiveUntrackedHeading   customNormal
+hi! link fugitiveUntrackedModifier  customDark
+hi! link fugitiveUntrackedSection   customDark
 
-hi! link fugitiveUnstagedHeading    Normal
-hi! link fugitiveUnstagedModifier   customDarker
-hi! link fugitiveUnstagedSection    customDarker
+hi! link fugitiveUnstagedHeading    customNormal
+hi! link fugitiveUnstagedModifier   customDark
+hi! link fugitiveUnstagedSection    customDark
 
 hi! link fugitiveStagedHeading      customPositive
 hi! link fugitiveStagedModifier     customPositive
 hi! link fugitiveStagedSection      customPositive
 
-hi! link fugitiveHeading            Normal
-hi! link fugitiveHash               customDarker
-hi! link fugitiveSection            customDarker
+hi! link fugitiveHeading            customNormal
+hi! link fugitiveHash               customDark
+hi! link fugitiveSection            customDark
 
 
 " tabgar
 " ======
 
-hi! link TagbarFoldIcon            customDarker
-hi! link TagbarVisibilityProtected customDarker
-hi! link TagbarVisibilityPublic    customDarker
-hi! link TagbarSignature           customDarker
-hi! link TagbarKind                customPositive
+hi! link TagbarHighlight           customHighlightedText
+hi! link TagbarFoldIcon            customDark
+
+hi! link TagbarVisibilityPrivate   Normal
+hi! link TagbarVisibilityProtected Normal
+hi! link TagbarVisibilityPublic    Normal
+
+hi! link TagbarSignature           Normal
+hi! link TagbarKind                customTitle
 hi! link TagbarNestedKind          customPositive
-hi! link TagbarScope               customTitle
-hi! link TagbarType                customDarker
+hi! link TagbarScope               Normal
+hi! link TagbarType                Normal
 
 
 " javascript
 " ==========
 
-hi! link jsThis Normal
+hi! link jsThis customNormal
 
 
 " python
