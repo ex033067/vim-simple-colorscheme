@@ -6,9 +6,7 @@ Best if your terminal supports _italic_ and **bold**.
 
 White letters over black background (white_onblack):
 
-![White on black](whiteonblack.png)
-
-And one black letter over white background, too.
+![White on black](screenshot.png)
 
 
 ## Installation ##

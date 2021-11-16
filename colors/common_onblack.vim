@@ -10,42 +10,41 @@
 
 " if &background == 'light'
 "     hi customString       guifg=#096595 guibg=bg      gui=italic  cterm=italic
-"     hi customLightBackground                       guibg=#EEEEEE gui=NONE cterm=NONE
+"     hi customLighterBackground                       guibg=#EEEEEE gui=NONE cterm=NONE
 "     hi customPositive     guifg=#00CD00 guibg=NONE    gui=NONE cterm=NONE
 " endif
 
 " Separated groups
 " ================
 
-hi! link Directory    customDark
-hi! link Special      customAttention
-hi! link SpecialKey   customAttention
+hi! link Directory    Normal
+hi! link Special      customWarningText
+hi! link SpecialKey   customWarningText
 
-hi! link Ignore       customDark
-hi! link Conceal      customDark
-hi! link NonText      customDark
-hi! link EndOfBuffer  customNormal
-hi! link QuickFixLine customHighlightedText
-hi! link qfFileName   customDarker
-hi! link qflineNr     customDarker
+hi! link Ignore       customUnderstate
+hi! link Conceal      customUnderstate
+hi! link NonText      customUnderstate
+hi! link EndOfBuffer  Normal
 
-
+hi! link QuickFixLine customSelectedItem
+hi! link qfFileName   customUnderstate
+hi! link qflineNr     customUnderstate
 
 
 " Syntax groups
 " =============
 
-hi! link Comment    customDark
-hi! link Constant   customNormal
+hi! link Comment    customUnderstate
+hi! link Constant   Normal
 hi! link String     customString
-hi! link Number     customNormal
+hi! link Number     Normal
 
-hi! link Statement  customNormal
-hi! link Type       customNormal
-hi! link PreProc    customNormal
-hi! link Identifier customNormal
+hi! link Statement  Normal
+hi! link Type       Normal
+hi! link PreProc    Normal
+hi! link Identifier Normal
 
-hi! link Todo       customHighlightedText
+hi! link Todo       customWarningMsg
 hi! link Error      customNegative
 hi Underlined       guifg=fg         guibg=bg      gui=underline  cterm=underline
 
@@ -57,7 +56,7 @@ hi Underlined       guifg=fg         guibg=bg      gui=underline  cterm=underlin
 let &t_SI = "\<Esc>]12;green\x7" | " solid non-blinking cursor
 let &t_SR = &t_SI
 let &t_EI = &t_SI
-hi  Cursor            guibg=#26CC00
+hi  Cursor            guibg=#26CC00 |" bg=green
 hi! link TermCursor   Cursor
 hi! link TermCursorNC Cursor
 hi! link lCursor      Cursor
@@ -69,21 +68,21 @@ hi! link IncSearch    customInvertedHighlight
 
 " Indicators and references
 hi MatchParen         guibg=bg      gui=underline  cterm=underline
-hi! link CursorLine   customLightBackground
-hi! link CursorColumn customLightBackground
-hi! link CursorLineNr customLightBackground
-hi! link ColorColumn  customLightBackground
-hi! link LineNr       customDark
-hi! link SignColumn   customNormal
-hi! link Folded       customDark
-hi! link FoldColumn   customDark
+hi! link CursorLine   customLighterBackground
+hi! link CursorColumn customLighterBackground
+hi! link CursorLineNr customLighterBackground
+hi! link ColorColumn  customLighterBackground
+hi! link LineNr       customUnderstate
+hi! link SignColumn   Normal
+hi! link Folded       customUnderstate
+hi! link FoldColumn   customUnderstate
 
 " Menus
-hi! link Pmenu        customInvertedDark
-hi! link PmenuSel     customInvertedNormal
+hi! link Pmenu        customInvertedUnderstate
+hi! link PmenuSel     customSelectedItem
 hi! link PmenuSbar    customInvertedNormal
-hi! link PmenuThumb   customNormal
-hi! link WildMenu     customInvertedNormal
+hi! link PmenuThumb   Normal
+hi! link WildMenu     customSelectedItem
 
 " Messages and user interaction
 hi! link ModeMsg      customHighlightedText
@@ -101,27 +100,28 @@ hi! link SpellLocal   customWarningMsg
 
 " Bars, lines and dividers
 hi! link StatusLine   customStatusLine
-hi! link StatusLineNC customInvertedDark
-hi! link VertSplit    customInvertedDark
+hi! link StatusLineNC customInvertedUnderstate
+hi! link VertSplit    customInvertedUnderstate
 
-hi! link TabLine      customInvertedDark
-hi! link TabLineFill  customInvertedDark
-hi! link TabLineSel   customInvertedNormal
+" hi! link TabLine      customInvertedUnderstate
+hi! link TabLine      Normal
+hi! link TabLineFill  Normal
+hi! link TabLineSel   customStatusLine
 
 
 " Git diff groups
 " ===============
 
-hi! link diffLine       customHighlightedText
-hi! link diffText       customDiffText
-hi! link diffChange     customAttention
+hi! link diffLine       customWarningText
+hi! link diffText       customWarningMsg
+hi! link diffChange     customWarningText
 
 hi! link diffSubname    customHighlightedText
 hi! link diffRemoved    customNegative
 hi! link diffAdded      customPositive
-hi! link diffFile       customNormal
-hi! link diffNewFile    customNormal
-hi! link diffIndexLine  customNormal
+hi! link diffFile       Normal
+hi! link diffNewFile    Normal
+hi! link diffIndexLine  Normal
 
 hi! link DiffAdd        customPositive
 hi! link DiffDelete     customNegative
@@ -138,38 +138,38 @@ hi! link htmlItalic customItalic
 " Git commit groups
 " =================
 
-hi! link gitcommitSummary customNormal
+hi! link gitcommitSummary Normal
 hi! link gitcommitBlank   customWarningMsg
 hi! link gitcommitBranch  customBold
-hi! link gitcommitHeader  customNormal
-hi! link gitcommitDiff    customNormal
+hi! link gitcommitHeader  Normal
+hi! link gitcommitDiff    Normal
 
-hi! link gitcommitSelected     customDark
+hi! link gitcommitSelected     customUnderstate
 hi! link gitcommitSelectedType customPositive
 hi! link gitcommitSelectedFile customPositive
 
-hi! link gitcommitDiscarded     customDark
+hi! link gitcommitDiscarded     customUnderstate
 hi! link gitcommitDiscardedType customNegative
 hi! link gitcommitDiscardedFile customNegative
 
-hi! link gitcommitUntracked     customDark
-hi! link gitcommitUntrackedFile customNormal
+hi! link gitcommitUntracked     customUnderstate
+hi! link gitcommitUntrackedFile Normal
 
 
 " Help groups
 " ===========
 
-hi! link helpHyperTextEntry customDark
+hi! link helpHyperTextEntry customUnderstate
 hi! link helpHyperTextJump  Underlined
 
-hi! link helpSpecial    SpecialKey
+hi! link helpSpecial    customWarningText
 
-hi! link helpOption     customBright
-hi! link helpExample    customBright
-hi! link helpCommand    customBold
+hi! link helpOption     customHighlightedText
+hi! link helpExample    customHighlightedText
+hi! link helpCommand    customHighlightedText
 hi  helpSectionDelim    guifg=#A9A9A9
 
-hi! link helpNotVi      customTitle
+hi! link helpNotVi      Title
 hi! link helpHeadline   customBold
 hi! link helpWarning    customWarningMsg
 
@@ -177,58 +177,58 @@ hi! link helpWarning    customWarningMsg
 " NERDTree
 " ========
 
-hi! link NERDTreeHelp           customNormal
-hi! link NERDTreeHelpTitle      customTitle
-hi! link NERDTreeHelpKey        customcustomNormal
-hi! link NERDTreeHelpCommand    customcustomNormal
+hi! link NERDTreeHelp           Normal
+hi! link NERDTreeHelpTitle      Title
+hi! link NERDTreeHelpKey        customNormal
+hi! link NERDTreeHelpCommand    customNormal
 hi! link NERDTreeToggleOff      customNegative
 hi! link NERDTreeToggleOn       customPositive
 
-hi! link NERDTreeUp             customDark
+hi! link NERDTreeUp             Normal
 hi! link NERDTreeCWD            customBright
-hi! link NERDTreeDir            customNormal
-hi! link NERDTreeDirSlash       customNormal
-hi! link NERDTreeFile           customNormal
-hi! link NERDTreeExecFile       customBright
+hi! link NERDTreeDir            Normal
+hi! link NERDTreeDirSlash       Normal
+hi! link NERDTreeFile           Normal
+hi! link NERDTreeExecFile       Normal
 
 
 " vim-fugitive
 " ============
 
-hi! link fugitiveHeader             customNormal
-hi! link fugitiveSymbolicRef        customDark
+hi! link fugitiveHeader             Normal
+hi! link fugitiveSymbolicRef        customUnderstate
 
-hi! link fugitiveCount              customNormal
-hi! link fugitiveUntrackedHeading   customNormal
-hi! link fugitiveUntrackedModifier  customDark
-hi! link fugitiveUntrackedSection   customDark
+hi! link fugitiveCount              Normal
+hi! link fugitiveUntrackedHeading   Normal
+hi! link fugitiveUntrackedModifier  customUnderstate
+hi! link fugitiveUntrackedSection   customUnderstate
 
-hi! link fugitiveUnstagedHeading    customNormal
-hi! link fugitiveUnstagedModifier   customDark
-hi! link fugitiveUnstagedSection    customDark
+hi! link fugitiveUnstagedHeading    Normal
+hi! link fugitiveUnstagedModifier   customUnderstate
+hi! link fugitiveUnstagedSection    customUnderstate
 
 hi! link fugitiveStagedHeading      customPositive
 hi! link fugitiveStagedModifier     customPositive
 hi! link fugitiveStagedSection      customPositive
 
-hi! link fugitiveHeading            customNormal
-hi! link fugitiveHash               customDark
-hi! link fugitiveSection            customDark
+hi! link fugitiveHeading            Normal
+hi! link fugitiveHash               customUnderstate
+hi! link fugitiveSection            customUnderstate
 
 
 " tabgar
 " ======
 
-hi! link TagbarHighlight           customHighlightedText
-hi! link TagbarFoldIcon            customDark
+hi! link TagbarHighlight           customSelectedItem
+hi! link TagbarFoldIcon            customUnderstate
 
 hi! link TagbarVisibilityPrivate   Normal
 hi! link TagbarVisibilityProtected Normal
 hi! link TagbarVisibilityPublic    Normal
 
 hi! link TagbarSignature           Normal
-hi! link TagbarKind                customTitle
-hi! link TagbarNestedKind          customPositive
+hi! link TagbarKind                Title
+hi! link TagbarNestedKind          Title
 hi! link TagbarScope               Normal
 hi! link TagbarType                Normal
 
@@ -236,14 +236,14 @@ hi! link TagbarType                Normal
 " javascript
 " ==========
 
-hi! link jsThis customNormal
+hi! link jsThis Normal
 
 
 " python
 " ======
 
-hi! link pythonStrInterpRegion customString
-hi! link pythonStrFormat customString
-hi! link pythonStrFormatting customString
+hi! link pythonStrInterpRegion String
+hi! link pythonStrFormat String
+hi! link pythonStrFormatting String
 
 " vim: expandtab tabstop=4 shiftwidth=0 softtabstop=4
