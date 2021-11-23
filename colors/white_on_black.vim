@@ -85,7 +85,7 @@ hi! link lCursor      Cursor
 " Visual mode and Search
 hi! link Visual       customInvertedNormal
 hi! link Search       customSearch
-hi! link IncSearch    customInvertedHighlight
+hi! link IncSearch    customInvertedNormal
 
 " Indicators and references
 hi MatchParen         guibg=bg      gui=underline  cterm=underline
