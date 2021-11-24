@@ -33,14 +33,15 @@ hi customString            guifg=#539ED6  guibg=bg       gui=italic       cterm=
 hi customTitle             guifg=#539ED6  guibg=bg       gui=bold         cterm=bold         |" fg=blue
 hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
 hi customNegative          guifg=#CE2B37  guibg=NONE     gui=NONE         cterm=NONE         |" fg=red
+hi customSpecial           guifg=#f92672  guibg=#232323  gui=NONE         cterm=NONE         |" fg=pink bg=gray
 
 
 " Separated groups
 " ================
 
 hi! link Directory    Normal
-hi! link Special      customWarningText
-hi! link SpecialKey   customWarningText
+hi! link Special      customSpecial
+hi! link SpecialKey   customSpecial
 
 hi! link Ignore       customUnderstate
 hi! link Conceal      customUnderstate
@@ -183,7 +184,7 @@ hi! link gitcommitUntrackedFile Normal
 hi! link helpHyperTextEntry customUnderstate
 hi! link helpHyperTextJump  Underlined
 
-hi! link helpSpecial    customWarningText
+hi! link helpSpecial    customSpecial
 
 hi! link helpOption     customHighlightedText
 hi! link helpExample    customHighlightedText
