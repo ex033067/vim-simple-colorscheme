@@ -11,14 +11,14 @@ hi clear
 
 let g:colors_name = 'white_on_black'
 
-hi Normal                  guifg=#BFBFBF  guibg=#181818
-hi customBright            guifg=#FFFFFF  guibg=bg       gui=NONE         cterm=NONE
-hi customHighlightedText   guifg=#FFD500  guibg=bg                                           |" fg=yellow
-hi customUnderstate        guifg=#666666  guibg=bg       gui=NONE         cterm=NONE
-hi customItalic            guifg=fg       guibg=bg       gui=italic       cterm=italic
-hi customBold              guifg=fg       guibg=bg       gui=bold         cterm=bold
+hi Normal                  guifg=#BFBFBF  guibg=NONE
+hi customBright            guifg=#FFFFFF  guibg=NONE       gui=NONE         cterm=NONE
+hi customHighlightedText   guifg=#FFD500  guibg=NONE                                           |" fg=yellow
+hi customUnderstate        guifg=#666666  guibg=NONE       gui=NONE         cterm=NONE
+hi customItalic            guifg=fg       guibg=NONE       gui=italic       cterm=italic
+hi customBold              guifg=fg       guibg=NONE       gui=bold         cterm=bold
 
-hi customInvertedNormal    guifg=bg       guibg=fg       gui=NONE         cterm=NONE
+hi customInvertedNormal    guifg=#181818       guibg=fg       gui=NONE         cterm=NONE
 hi customInvertedUnderstate      guifg=#000000  guibg=#6A6A6A
 
 hi customErrorMsg          guifg=#E5E5E5  guibg=#CE2B37                                      |" fg=white bg=red
@@ -29,8 +29,8 @@ hi customLighterBackground                guibg=#333333  gui=NONE         cterm=
 hi customStatusLine                       guibg=#294f6b  gui=NONE         cterm=NONE         |" bg=dark blue
 hi customSelectedItem      guifg=#00B2B2  guibg=#232b2b  gui=bold         cterm=bold         |" fg=cyan
 
-hi customString            guifg=#539ED6  guibg=bg       gui=italic       cterm=italic       |" fg=blue
-hi customTitle             guifg=#539ED6  guibg=bg       gui=bold         cterm=bold         |" fg=blue
+hi customString            guifg=#539ED6  guibg=NONE     gui=italic       cterm=italic       |" fg=blue
+hi customTitle             guifg=#539ED6  guibg=NONE     gui=bold         cterm=bold         |" fg=blue
 hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
 hi customNegative          guifg=#CE2B37  guibg=NONE     gui=NONE         cterm=NONE         |" fg=red
 hi customSpecial           guifg=#f92672  guibg=#232323  gui=NONE         cterm=NONE         |" fg=pink bg=gray
@@ -68,7 +68,7 @@ hi! link Identifier Normal
 
 hi! link Todo       customWarningMsg
 hi! link Error      customNegative
-hi Underlined       guifg=fg         guibg=bg      gui=underline  cterm=underline
+hi Underlined       guifg=fg         guibg=NONE      gui=underline  cterm=underline
 
 
 " Elements of interface
@@ -89,7 +89,7 @@ hi! link Search       customSearch
 hi! link IncSearch    customInvertedNormal
 
 " Indicators and references
-hi MatchParen         guibg=bg      gui=underline  cterm=underline
+hi MatchParen         guibg=NONE      gui=underline  cterm=underline
 hi! link CursorLine   customLighterBackground
 hi! link CursorColumn customLighterBackground
 hi! link CursorLineNr customLighterBackground
