@@ -25,7 +25,8 @@ hi customErrorMsg          guifg=#E5E5E5  guibg=#CE2B37                         
 hi customWarningMsg        guifg=#000000  guibg=#F3B301                                      |" fg=black bg=orange
 hi customWarningText       guifg=#f3b301  guibg=NONE     gui=NONE         cterm=NONE         |" fg=orange
 hi customSearch            guifg=#FFFFFF  guibg=#AC6C1C                                      |" fg=white bg=marron
-hi customLighterBackground                guibg=#333333  gui=NONE         cterm=NONE
+hi customLightCursorLine                  guibg=#333333  gui=NONE         cterm=NONE
+hi customDarkCursorLine                   guibg=#1C1C1C  gui=NONE         cterm=NONE
 hi customStatusLine                       guibg=#294f6b  gui=NONE         cterm=NONE         |" bg=dark blue
 hi customSelectedItem      guifg=#00B2B2  guibg=#232b2b  gui=bold         cterm=bold         |" fg=cyan
 
@@ -90,10 +91,10 @@ hi! link IncSearch    customInvertedNormal
 
 " Indicators and references
 hi MatchParen         guibg=NONE      gui=underline  cterm=underline
-hi! link CursorLine   customLighterBackground
-hi! link CursorColumn customLighterBackground
-hi! link CursorLineNr customLighterBackground
-hi! link ColorColumn  customLighterBackground
+hi! link CursorLine   customDarkCursorLine
+hi! link CursorColumn CursorLine
+hi! link CursorLineNr CursorLine
+hi! link ColorColumn  CursorLine
 hi! link LineNr       customUnderstate
 hi! link SignColumn   Normal
 hi! link Folded       customUnderstate
