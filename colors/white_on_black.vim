@@ -6,10 +6,15 @@
 "   - https://www.rapidtables.com/web/color/RGB_Color.html
 "   - https://www.color-hex.com/
 
+" Preamble recommended by https://github.com/KevinGoodsell/vim-color-check/blob/master/color-scheme-recommendations.txt
 set background=dark
-hi clear
+highlight clear
+if exists("syntax_on")
+    syntax reset
+endif
 
 let g:colors_name = 'white_on_black'
+
 
 hi Normal                  guifg=#BFBFBF  guibg=NONE
 hi customBright            guifg=#FFFFFF  guibg=NONE       gui=NONE         cterm=NONE
