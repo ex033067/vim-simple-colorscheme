@@ -80,15 +80,6 @@ hi Underlined       guifg=fg         guibg=NONE      gui=underline  cterm=underl
 " Elements of interface
 " =====================
 
-" Cursor
-let &t_SI = "\<Esc>]12;green\x7" | " solid non-blinking cursor
-let &t_SR = &t_SI
-let &t_EI = &t_SI
-hi  Cursor            guibg=#26CC00 |" bg=green
-hi! link TermCursor   Cursor
-hi! link TermCursorNC Cursor
-hi! link lCursor      Cursor
-
 " Visual mode and Search
 hi! link Visual       customInvertedNormal
 hi! link Search       customSearch
