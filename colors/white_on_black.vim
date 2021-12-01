@@ -24,6 +24,7 @@ hi customItalic            guifg=fg       guibg=NONE       gui=italic       cter
 hi customBold              guifg=fg       guibg=NONE       gui=bold         cterm=bold
 
 hi customInvertedNormal    guifg=#181818       guibg=fg       gui=NONE         cterm=NONE
+hi customInvertedBright    guifg=#181818       guibg=#FFFFFF  gui=NONE         cterm=NONE
 hi customInvertedUnderstate      guifg=#000000  guibg=#6A6A6A
 
 hi customErrorMsg          guifg=#E5E5E5  guibg=#CE2B37                                      |" fg=white bg=red
@@ -83,7 +84,7 @@ hi Underlined       guifg=fg         guibg=NONE      gui=underline  cterm=underl
 " Visual mode and Search
 hi! link Visual       customLightCursorLine
 hi! link Search       customSearch
-hi! link IncSearch    customInvertedNormal
+hi! link IncSearch    customInvertedBright
 
 " Indicators and references
 hi MatchParen         guibg=NONE      gui=underline  cterm=underline
