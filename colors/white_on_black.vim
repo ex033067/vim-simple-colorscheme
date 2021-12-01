@@ -39,7 +39,7 @@ hi customString            guifg=#539ED6  guibg=NONE     gui=italic       cterm=
 hi customTitle             guifg=#539ED6  guibg=NONE     gui=bold         cterm=bold         |" fg=blue
 hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
 hi customNegative          guifg=#CE2B37  guibg=NONE     gui=NONE         cterm=NONE         |" fg=red
-hi customSpecial           guifg=#f92672  guibg=#232323  gui=NONE         cterm=NONE         |" fg=pink bg=gray
+hi customSpecial           guifg=#f92672  guibg=NONE     gui=NONE         cterm=NONE         |" fg=pink
 
 
 " Separated groups
