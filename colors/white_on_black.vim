@@ -81,7 +81,7 @@ hi Underlined       guifg=fg         guibg=NONE      gui=underline  cterm=underl
 " =====================
 
 " Visual mode and Search
-hi! link Visual       customInvertedNormal
+hi! link Visual       customLightCursorLine
 hi! link Search       customSearch
 hi! link IncSearch    customInvertedNormal
 
