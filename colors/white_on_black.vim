@@ -138,13 +138,15 @@ hi! link DiffText       customWarningMsg
 hi! link DiffDelete     customNegative
 
 
-" Git diff groups
-" ===============
+" syntax/diff.vim file
+" ====================
 
+hi! link diffAdded      DiffAdd
+hi! link diffChanged    DiffChange
+hi! link diffRemoved    DiffDelete
+hi! link diffComment    Comment
 hi! link diffLine       customWarningText
-hi! link diffSubname    customHighlightedText
-hi! link diffRemoved    customNegative
-hi! link diffAdded      customPositive
+hi! link diffSubname    customWarningText
 hi! link diffFile       Normal
 hi! link diffNewFile    Normal
 hi! link diffIndexLine  Normal
