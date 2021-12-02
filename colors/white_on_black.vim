@@ -129,22 +129,25 @@ hi! link TabLineFill  Normal
 hi! link TabLineSel   customStatusLine
 
 
+" Vim diff groups (see `:h diff.txt` for reference)
+" =================================================
+
+hi! link DiffAdd        customPositive
+hi! link DiffChange     customWarningText
+hi! link DiffText       customWarningMsg
+hi! link DiffDelete     customNegative
+
+
 " Git diff groups
 " ===============
 
 hi! link diffLine       customWarningText
-hi! link diffText       customWarningMsg
-hi! link diffChange     customWarningText
-
 hi! link diffSubname    customHighlightedText
 hi! link diffRemoved    customNegative
 hi! link diffAdded      customPositive
 hi! link diffFile       Normal
 hi! link diffNewFile    Normal
 hi! link diffIndexLine  Normal
-
-hi! link DiffAdd        customPositive
-hi! link DiffDelete     customNegative
 
 
 " HTML
