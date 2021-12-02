@@ -37,6 +37,7 @@ hi customStatusLine                       guibg=#294f6b  gui=NONE         cterm=
 hi customSelectedItem      guifg=#00B2B2  guibg=#232b2b  gui=bold         cterm=bold         |" fg=cyan
 
 hi customQuestion          guifg=#AC6C1C  guibg=NONE     gui=NONE         cterm=NONE         |" fg=gold
+hi customCodeSnippet       guifg=#AC6C1C  guibg=#222222  gui=NONE         cterm=NONE         |" fg=gold bg=gray
 hi customString            guifg=#AC6C1C  guibg=NONE     gui=italic       cterm=italic       |" fg=gold
 hi customTitle             guifg=#539ED6  guibg=NONE     gui=bold         cterm=bold         |" fg=blue
 hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
@@ -190,14 +191,16 @@ hi! link helpHyperTextJump  Underlined
 
 hi! link helpSpecial    customSpecial
 
-hi! link helpOption     customHighlightedText
-hi! link helpExample    customHighlightedText
-hi! link helpCommand    customHighlightedText
+hi! link helpOption     Underlined
+hi! link helpURL        Underlined
+hi! link helpExample    customCodeSnippet
+hi! link helpCommand    customCodeSnippet
 hi  helpSectionDelim    guifg=#A9A9A9
 
 hi! link helpNotVi      Title
 hi! link helpHeadline   customBold
-hi! link helpWarning    customWarningMsg
+hi! link helpWarning    customWarningText
+hi! link helpNote       customWarningText
 
 
 " NERDTree
