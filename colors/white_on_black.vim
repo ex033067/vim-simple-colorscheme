@@ -165,8 +165,8 @@ hi! link htmlItalic customItalic
 
 hi! link gitcommitSummary Normal
 hi! link gitcommitBlank   customWarningMsg
-hi! link gitcommitBranch  customBold
-hi! link gitcommitHeader  Normal
+hi! link gitcommitBranch  Normal
+hi! link gitcommitHeader  Title
 hi! link gitcommitDiff    Normal
 
 hi! link gitcommitSelected     customUnderstate
@@ -174,8 +174,8 @@ hi! link gitcommitSelectedType customPositive
 hi! link gitcommitSelectedFile customPositive
 
 hi! link gitcommitDiscarded     customUnderstate
-hi! link gitcommitDiscardedType customNegative
-hi! link gitcommitDiscardedFile customNegative
+hi! link gitcommitDiscardedType customUnderstate
+hi! link gitcommitDiscardedFile customUnderstate
 
 hi! link gitcommitUntracked     customUnderstate
 hi! link gitcommitUntrackedFile Normal
