@@ -36,6 +36,7 @@ hi customDarkCursorLine                   guibg=#1C1C1C  gui=NONE         cterm=
 hi customStatusLine                       guibg=#294f6b  gui=NONE         cterm=NONE         |" bg=dark blue
 hi customSelectedItem      guifg=#00B2B2  guibg=#232b2b  gui=bold         cterm=bold         |" fg=cyan
 
+hi customQuestion          guifg=#AC6C1C  guibg=NONE     gui=NONE         cterm=NONE         |" fg=gold
 hi customString            guifg=#AC6C1C  guibg=NONE     gui=italic       cterm=italic       |" fg=gold
 hi customTitle             guifg=#539ED6  guibg=NONE     gui=bold         cterm=bold         |" fg=blue
 hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
@@ -105,9 +106,9 @@ hi! link PmenuThumb   Normal
 hi! link WildMenu     customSelectedItem
 
 " Messages and user interaction
-hi! link ModeMsg      customHighlightedText
-hi! link MoreMsg      customHighLightedText
-hi! link Question     customHighlightedText    | " Press ENTER or type command to continue
+hi! link ModeMsg      customQuestion
+hi! link MoreMsg      customQuestion
+hi! link Question     customQuestion    | " Press ENTER or type command to continue
 hi! link Title        customTitle
 hi! link ErrorMsg     customErrorMsg
 hi! link WarningMsg   customWarningMsg
