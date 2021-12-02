@@ -29,12 +29,12 @@ hi customInvertedUnderstate      guifg=#000000  guibg=#6A6A6A
 
 hi customErrorMsg          guifg=#E5E5E5  guibg=#CE2B37                                      |" fg=white bg=red
 hi customWarningMsg        guifg=#000000  guibg=#F3B301                                      |" fg=black bg=orange
-hi customWarningText       guifg=#f3b301  guibg=NONE     gui=NONE         cterm=NONE         |" fg=orange
+hi customWarningText       guifg=#F3B301  guibg=NONE     gui=NONE         cterm=NONE         |" fg=orange
 hi customSearch            guifg=#FFFFFF  guibg=#AC6C1C                                      |" fg=white bg=marron
 hi customLightCursorLine                  guibg=#333333  gui=NONE         cterm=NONE
 hi customDarkCursorLine                   guibg=#1C1C1C  gui=NONE         cterm=NONE
-hi customStatusLine                       guibg=#294f6b  gui=NONE         cterm=NONE         |" bg=dark blue
-hi customSelectedItem      guifg=#00B2B2  guibg=#232b2b  gui=bold         cterm=bold         |" fg=cyan
+hi customStatusLine                       guibg=#294F6B  gui=NONE         cterm=NONE         |" bg=dark blue
+hi customSelectedItem      guifg=#00B2B2  guibg=#232B2B  gui=bold         cterm=bold         |" fg=cyan
 
 hi customQuestion          guifg=#AC6C1C  guibg=NONE     gui=NONE         cterm=NONE         |" fg=gold
 hi customCodeSnippet       guifg=#AC6C1C  guibg=#222222  gui=NONE         cterm=NONE         |" fg=gold bg=gray
@@ -42,7 +42,7 @@ hi customString            guifg=#AC6C1C  guibg=NONE     gui=italic       cterm=
 hi customTitle             guifg=#539ED6  guibg=NONE     gui=bold         cterm=bold         |" fg=blue
 hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
 hi customNegative          guifg=#CE2B37  guibg=NONE     gui=NONE         cterm=NONE         |" fg=red
-hi customSpecial           guifg=#f92672  guibg=NONE     gui=NONE         cterm=NONE         |" fg=pink
+hi customSpecial           guifg=#F92672  guibg=NONE     gui=NONE         cterm=NONE         |" fg=pink
 
 
 " Separated groups
