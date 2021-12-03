@@ -16,6 +16,8 @@ endif
 let g:colors_name = 'white_on_black'
 
 
+" Colors reserved for the future: #F92672 (pink) and #00B2B2 (cyan)
+
 hi Normal                  guifg=#BFBFBF  guibg=NONE
 hi customBright            guifg=#FFFFFF  guibg=NONE       gui=NONE         cterm=NONE
 hi customHighlightedText   guifg=#FFD500  guibg=NONE                                           |" fg=yellow
