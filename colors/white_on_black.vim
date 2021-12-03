@@ -39,7 +39,8 @@ hi customSelectedItem      guifg=#539ED6  guibg=#232B2B  gui=bold         cterm=
 hi customQuestion          guifg=#AC6C1C  guibg=NONE     gui=NONE         cterm=NONE         |" fg=gold
 hi customCodeSnippet       guifg=#AC6C1C  guibg=#222222  gui=NONE         cterm=NONE         |" fg=gold bg=gray
 hi customString            guifg=#AC6C1C  guibg=NONE     gui=italic       cterm=italic       |" fg=gold
-hi customTitle             guifg=#539ED6  guibg=NONE     gui=bold         cterm=bold         |" fg=blue
+hi customHeading           guifg=#539ED6  guibg=NONE     gui=bold         cterm=bold         |" fg=blue
+hi customSubHeading        guifg=#539ED6  guibg=NONE     gui=NONE         cterm=NONE         |" fg=blue
 hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
 hi customNegative          guifg=#CE2B37  guibg=NONE     gui=NONE         cterm=NONE         |" fg=red
 hi customSpecial           guifg=#F92672  guibg=NONE     gui=NONE         cterm=NONE         |" fg=pink
@@ -110,7 +111,7 @@ hi! link WildMenu     customSelectedItem
 hi! link ModeMsg      customQuestion
 hi! link MoreMsg      customQuestion
 hi! link Question     customQuestion    | " Press ENTER or type command to continue
-hi! link Title        customTitle
+hi! link Title        customHeading
 hi! link ErrorMsg     customErrorMsg
 hi! link WarningMsg   customWarningMsg
 
@@ -157,7 +158,7 @@ hi! link diffIndexLine  Normal
 " HTML
 " ====
 
-hi! link htmlH1     customTitle
+hi! link htmlH1     customHeading
 hi! link htmlBold   customBold
 hi! link htmlItalic customItalic
 
@@ -168,7 +169,7 @@ hi! link htmlItalic customItalic
 hi! link gitcommitSummary Normal
 hi! link gitcommitBlank   customWarningMsg
 hi! link gitcommitBranch  Normal
-hi! link gitcommitHeader  Title
+hi! link gitcommitHeader  Normal
 hi! link gitcommitDiff    Normal
 
 hi! link gitcommitSelected     customUnderstate
@@ -198,7 +199,8 @@ hi! link helpCommand    customCodeSnippet
 hi  helpSectionDelim    guifg=#A9A9A9
 
 hi! link helpNotVi      Title
-hi! link helpHeadline   customBold
+hi! link helpHeader     customHeading
+hi! link helpHeadline   customSubHeading
 hi! link helpWarning    customWarningText
 hi! link helpNote       customWarningText
 
@@ -256,8 +258,8 @@ hi! link TagbarVisibilityProtected Normal
 hi! link TagbarVisibilityPublic    Normal
 
 hi! link TagbarSignature           Normal
-hi! link TagbarKind                Title
-hi! link TagbarNestedKind          Title
+hi! link TagbarKind                customSubHeading
+hi! link TagbarNestedKind          customSubHeading
 hi! link TagbarScope               Normal
 hi! link TagbarType                Normal
 
