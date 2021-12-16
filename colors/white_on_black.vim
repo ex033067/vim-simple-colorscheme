@@ -210,19 +210,21 @@ hi! link helpNote       customWarningText
 " NERDTree
 " ========
 
-hi! link NERDTreeHelp           Normal
-hi! link NERDTreeHelpTitle      Title
-hi! link NERDTreeHelpKey        customNormal
-hi! link NERDTreeHelpCommand    customNormal
+hi! link NERDTreeHelp           customUnderstate
+hi! link NERDTreeHelpTitle      customSubHeading
+hi! link NERDTreeHelpKey        Normal
+hi! link NERDTreeHelpCommand    Normal
 hi! link NERDTreeToggleOff      customNegative
 hi! link NERDTreeToggleOn       customPositive
 
-hi! link NERDTreeUp             Normal
-hi! link NERDTreeCWD            customBright
-hi! link NERDTreeDir            Normal
-hi! link NERDTreeDirSlash       Normal
-hi! link NERDTreeFile           Normal
+hi! link NERDTreeUp             customUnderstate
+hi! link NERDTreeCWD            customUnderstate
+hi! link NERDTreeDir            customUnderstate
+hi! link NERDTreeDirSlash       customUnderstate
+hi NERDTreeFile guifg=#666666 guibg=NONE |" It sould be linked to customUnderstate, but there is a bug in NERDTree
 hi! link NERDTreeExecFile       Normal
+hi! link NERDTreeOpenable       customUnderstate
+hi! link NERDTreeClosable       customUnderstate
 
 
 " vim-fugitive
