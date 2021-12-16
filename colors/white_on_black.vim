@@ -129,7 +129,7 @@ hi! link StatusLineNC customInvertedUnderstate
 hi! link VertSplit    customInvertedUnderstate
 
 " hi! link TabLine      customInvertedUnderstate
-hi! link TabLine      Normal
+hi! link TabLine      customUnderstate
 hi! link TabLineFill  Normal
 hi! link TabLineSel   customStatusLine
 
