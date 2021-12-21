@@ -39,7 +39,7 @@ hi customStatusLine                       guibg=#294F6B  gui=NONE         cterm=
 hi customSelectedItem      guifg=#BFBFBF  guibg=#294F6B  gui=bold         cterm=bold         |" fg=white bg=dark blue
 
 hi customQuestion          guifg=#AC6C1C  guibg=NONE     gui=NONE         cterm=NONE         |" fg=gold
-hi customCodeSnippet       guifg=#AC6C1C  guibg=#222222  gui=NONE         cterm=NONE         |" fg=gold bg=gray
+hi customCodeSnippet       guifg=#66FF66  guibg=#232323  gui=NONE         cterm=NONE         |" fg=green bg=gray
 hi customString            guifg=#a45b36  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
 hi customHeading           guifg=#539ED6  guibg=NONE     gui=bold         cterm=bold         |" fg=blue
 hi customSubHeading        guifg=#539ED6  guibg=NONE     gui=NONE         cterm=NONE         |" fg=blue
