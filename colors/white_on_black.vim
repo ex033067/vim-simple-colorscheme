@@ -58,7 +58,7 @@ hi! link SpecialKey   customSpecial
 hi! link Ignore       customUnderstate
 hi! link Conceal      customUnderstate
 hi! link NonText      customUnderstate
-hi! link EndOfBuffer  Normal
+hi! link EndOfBuffer  customUnderstate
 
 hi! link QuickFixLine customSelectedItem
 hi! link qfFileName   customUnderstate
