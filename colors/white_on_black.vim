@@ -45,7 +45,7 @@ hi customHeading           guifg=#539ED6  guibg=NONE     gui=bold         cterm=
 hi customSubHeading        guifg=#539ED6  guibg=NONE     gui=NONE         cterm=NONE         |" fg=blue
 hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
 hi customNegative          guifg=#CE2B37  guibg=NONE     gui=NONE         cterm=NONE         |" fg=red
-hi customSpecial           guifg=#AC6C1C  guibg=NONE     gui=NONE         cterm=NONE         |" fg=gold
+hi customSpecial           guifg=#d0417e  guibg=#232323  gui=NONE         cterm=NONE         |" fg=pink bg=gray
 
 
 " Separated groups
