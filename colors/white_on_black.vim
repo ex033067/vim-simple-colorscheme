@@ -40,7 +40,13 @@ hi customSelectedItem      guifg=#BFBFBF  guibg=#294F6B  gui=bold         cterm=
 
 hi customQuestion          guifg=#AC6C1C  guibg=NONE     gui=NONE         cterm=NONE         |" fg=gold
 hi customCodeSnippet       guifg=#66FF66  guibg=#232323  gui=NONE         cterm=NONE         |" fg=green bg=gray
-hi customString            guifg=#A45B36  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
+" hi customString            guifg=#A45B36  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
+" hi customString            guifg=#D5A65E  guibg=NONE     gui=italic       cterm=italic       |" fg=pastel
+" hi customString            guifg=#BF9000  guibg=NONE     gui=italic       cterm=italic       |" fg=gold
+" hi customString            guifg=#976151  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
+" hi customString            guifg=#A95C62  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
+" hi customString            guifg=#A27250  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
+hi customString            guifg=#5080A2  guibg=NONE     gui=italic       cterm=italic       |" fg=dark blue
 hi customHeading           guifg=#539ED6  guibg=NONE     gui=bold         cterm=bold         |" fg=blue
 hi customSubHeading        guifg=#539ED6  guibg=NONE     gui=NONE         cterm=NONE         |" fg=blue
 hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
