@@ -32,7 +32,7 @@ hi customInvertedUnderstate      guifg=#000000  guibg=#6A6A6A
 hi customErrorMsg          guifg=#E5E5E5  guibg=#CE2B37                                      |" fg=white bg=red
 hi customWarningMsg        guifg=#000000  guibg=#F3B301                                      |" fg=black bg=orange
 hi customWarningText       guifg=#F3B301  guibg=NONE     gui=NONE         cterm=NONE         |" fg=orange
-hi customSearch            guifg=#BFBFBF  guibg=#0b5394                                      |" fg=white bg=blue
+hi customSearch            guifg=#BFBFBF  guibg=#0B5394                                      |" fg=white bg=blue
 hi customLightCursorLine                  guibg=#333333  gui=NONE         cterm=NONE
 hi customDarkCursorLine                   guibg=#1C1C1C  gui=NONE         cterm=NONE
 hi customStatusLine                       guibg=#294F6B  gui=NONE         cterm=NONE         |" bg=dark blue
@@ -40,12 +40,12 @@ hi customSelectedItem      guifg=#BFBFBF  guibg=#294F6B  gui=bold         cterm=
 
 hi customQuestion          guifg=#AC6C1C  guibg=NONE     gui=NONE         cterm=NONE         |" fg=gold
 hi customCodeSnippet       guifg=#66FF66  guibg=#232323  gui=NONE         cterm=NONE         |" fg=green bg=gray
-hi customString            guifg=#a45b36  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
+hi customString            guifg=#A45B36  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
 hi customHeading           guifg=#539ED6  guibg=NONE     gui=bold         cterm=bold         |" fg=blue
 hi customSubHeading        guifg=#539ED6  guibg=NONE     gui=NONE         cterm=NONE         |" fg=blue
 hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
 hi customNegative          guifg=#CE2B37  guibg=NONE     gui=NONE         cterm=NONE         |" fg=red
-hi customSpecial           guifg=#d0417e  guibg=#232323  gui=NONE         cterm=NONE         |" fg=pink bg=gray
+hi customSpecial           guifg=#D0417E  guibg=#232323  gui=NONE         cterm=NONE         |" fg=pink bg=gray
 
 
 " Separated groups
