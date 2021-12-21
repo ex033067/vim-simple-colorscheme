@@ -197,7 +197,7 @@ hi! link helpSpecial    customSpecial
 hi! link helpOption     Underlined
 hi! link helpURL        Underlined
 hi! link helpExample    customCodeSnippet
-hi! link helpCommand    customCodeSnippet
+hi! link helpCommand    Underlined
 hi  helpSectionDelim    guifg=#A9A9A9
 
 hi! link helpNotVi      Title
