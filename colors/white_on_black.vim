@@ -51,7 +51,8 @@ hi customHeading           guifg=#539ED6  guibg=NONE     gui=bold         cterm=
 hi customSubHeading        guifg=#539ED6  guibg=NONE     gui=NONE         cterm=NONE         |" fg=blue
 hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
 hi customNegative          guifg=#CE2B37  guibg=NONE     gui=NONE         cterm=NONE         |" fg=red
-hi customSpecial           guifg=#68AADB  guibg=#282828  gui=NONE         cterm=NONE         |" fg=blue bg=gray
+hi customSpecial           guifg=#68AADB  guibg=bg       gui=NONE         cterm=NONE         |" fg=blue bg=gray
+hi customSpecialKey        guifg=#68AADB  guibg=#282828  gui=NONE         cterm=NONE         |" fg=blue bg=gray
 
 
 " Separated groups
@@ -59,7 +60,7 @@ hi customSpecial           guifg=#68AADB  guibg=#282828  gui=NONE         cterm=
 
 hi! link Directory    Normal
 hi! link Special      customSpecial
-hi! link SpecialKey   customSpecial
+hi! link SpecialKey   customSpecialKey
 
 hi! link Ignore       customUnderstate
 hi! link Conceal      customUnderstate
@@ -198,7 +199,7 @@ hi! link gitcommitUntrackedFile Normal
 hi! link helpHyperTextEntry customUnderstate
 hi! link helpHyperTextJump  Underlined
 
-hi! link helpSpecial    customSpecial
+hi! link helpSpecial    customSpecialKey
 
 hi! link helpOption     Underlined
 hi! link helpURL        Underlined
