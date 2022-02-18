@@ -138,7 +138,7 @@ hi! link VertSplit    customInvertedUnderstate
 " hi! link TabLine      customInvertedUnderstate
 hi! link TabLine      customUnderstate
 hi! link TabLineFill  Normal
-hi! link TabLineSel   customStatusLine
+hi! link TabLineSel   customLightCursorLine
 
 
 " Vim diff groups (see `:h diff.txt` for reference)
