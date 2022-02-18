@@ -67,7 +67,7 @@ hi! link Conceal      customUnderstate
 hi! link NonText      customUnderstate
 hi! link EndOfBuffer  customUnderstate
 
-hi! link QuickFixLine customSelectedItem
+hi! link QuickFixLine customLightCursorLine
 hi! link qfFileName   customUnderstate
 hi! link qflineNr     customUnderstate
 
