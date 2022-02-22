@@ -53,7 +53,8 @@ hi customHeading           guifg=#539ED6  guibg=NONE     gui=bold         cterm=
 hi customSubHeading        guifg=#539ED6  guibg=NONE     gui=NONE         cterm=NONE         |" fg=blue
 hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
 hi customNegative          guifg=#CE2B37  guibg=NONE     gui=NONE         cterm=NONE         |" fg=red
-hi customSpecial           guifg=#68AADB  guibg=bg       gui=NONE         cterm=NONE         |" fg=blue bg=gray
+" hi customSpecial           guifg=#68AADB  guibg=#282828  gui=NONE         cterm=NONE         |" fg=blue bg=gray
+hi customSpecial           guifg=fg  guibg=#333333  gui=NONE         cterm=NONE         |" fg=blue bg=gray
 hi customSpecialKey        guifg=#68AADB  guibg=#282828  gui=NONE         cterm=NONE         |" fg=blue bg=gray
 
 
