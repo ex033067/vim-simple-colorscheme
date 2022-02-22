@@ -36,6 +36,7 @@ hi customWarningText       guifg=#F3B301  guibg=NONE     gui=NONE         cterm=
 hi customSearch            guifg=#FFFFFF  guibg=#AC6C1C                                      |" fg=white bg=gold
 hi customLightCursorLine                  guibg=#333333  gui=NONE         cterm=NONE
 hi customDarkCursorLine                   guibg=#232323  gui=NONE         cterm=NONE
+hi customInvisibleCursorLine              guibg=NONE     gui=NONE         cterm=NONE
 hi customStatusLine                       guibg=#294F6B  gui=NONE         cterm=NONE         |" bg=dark blue
 hi customSelectedItem      guifg=#BFBFBF  guibg=#294F6B  gui=bold         cterm=bold         |" fg=white bg=dark blue
 
