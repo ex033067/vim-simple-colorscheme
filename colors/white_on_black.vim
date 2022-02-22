@@ -102,7 +102,7 @@ hi! link IncSearch    customInvertedBright
 
 " Indicators and references
 hi MatchParen         guibg=NONE      gui=bold,underline  ctermbg=NONE cterm=bold,underline
-hi! link CursorLine   customDarkCursorLine
+hi! link CursorLine   customInvisibleCursorLine
 hi! link CursorColumn CursorLine
 hi! link CursorLineNr CursorLine
 hi! link ColorColumn  CursorLine
