@@ -49,8 +49,9 @@ hi customCodeSnippet       guifg=#66FF66  guibg=#232323  gui=NONE         cterm=
 " hi customString            guifg=#A95C62  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
 " hi customString            guifg=#A27250  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
 hi customString            guifg=#5080A2  guibg=NONE     gui=italic       cterm=italic       |" fg=dark blue
+hi customBoolean           guifg=#ab6f42  guibg=NONE     gui=NONE         cterm=NONE         |" fg=brown
 hi customHeading           guifg=#539ED6  guibg=NONE     gui=bold         cterm=bold         |" fg=blue
-hi customSubHeading        guifg=#539ED6  guibg=NONE     gui=NONE         cterm=NONE         |" fg=blue
+hi customSubHeading        guifg=#4A8EC0  guibg=NONE     gui=NONE         cterm=NONE         |" fg=blue
 hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
 hi customNegative          guifg=#CE2B37  guibg=NONE     gui=NONE         cterm=NONE         |" fg=red
 hi customSpecial           guifg=fg       guibg=#282828  gui=NONE         cterm=NONE         |" fg=blue bg=gray
@@ -294,7 +295,12 @@ hi! link pythonStrFormatting String
 " yaml
 " ====
 
+hi! link yamlDocumentStart     customBright
+hi! link yamlBlockMappingKey   customSubHeading
 hi! link yamlKeyValueDelimiter Normal
-hi! link yamlPlainScalar       String
+hi! link yamlPlainScalar       Constant
+hi! link yamlInteger           Number
+hi! link yamlBool              customBoolean
+hi! link yamlNull              customBoolean
 
 " vim: expandtab tabstop=4 shiftwidth=0 softtabstop=4
