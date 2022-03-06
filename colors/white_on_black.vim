@@ -16,46 +16,58 @@ endif
 let g:colors_name = 'white_on_black'
 
 
-" Colors reserved for the future: #F92672 (pink) and #00B2B2 (cyan)
+" Color           Foreground Background
+" --------------- ---------- ----------
+" white bright    #E5E5E5    #FFFFFF
+" white normal    #BFBFBF
+" white dark      #666666
+" black           #181818    #181818
+" black light                #232323
+" black lighter              #333333
+" black lightest             #6A6A6A
+" blue            #5080A2    #5080A2
+" yellow          #FFD500
+" orange          #F3B301    #F3B301
+" brown           #AC6C1C    #AC6C1C
+" green           #44B533
+" red             #CE2B37    #CE2B37
+" pink (future)   #F92672
+" cyan (future)   #00B2B2
 
-hi Normal                  guifg=#BFBFBF  guibg=NONE
-hi customBright            guifg=#FFFFFF  guibg=NONE       gui=NONE         cterm=NONE
-hi customHighlightedText   guifg=#FFD500  guibg=NONE                                           |" fg=yellow
-hi customUnderstate        guifg=#666666  guibg=NONE       gui=NONE         cterm=NONE
-hi customItalic            guifg=fg       guibg=NONE       gui=italic       cterm=italic
-hi customBold              guifg=fg       guibg=NONE       gui=bold         cterm=bold
 
-hi customInvertedNormal    guifg=#181818       guibg=fg       gui=NONE         cterm=NONE
-hi customInvertedBright    guifg=#181818       guibg=#FFFFFF  gui=NONE         cterm=NONE
-hi customInvertedUnderstate      guifg=#000000  guibg=#6A6A6A
+hi Normal                     guifg=#BFBFBF  guibg=NONE                                  |" fg=white normal
 
-hi customErrorMsg          guifg=#E5E5E5  guibg=#CE2B37                                      |" fg=white bg=red
-hi customWarningMsg        guifg=#000000  guibg=#F3B301                                      |" fg=black bg=orange
-hi customWarningText       guifg=#F3B301  guibg=NONE     gui=NONE         cterm=NONE         |" fg=orange
-" hi customSearch            guifg=#BFBFBF  guibg=#0B5394                                      |" fg=white bg=blue
-hi customSearch            guifg=#FFFFFF  guibg=#AC6C1C                                      |" fg=white bg=gold
-hi customLightCursorLine                  guibg=#333333  gui=NONE         cterm=NONE
-hi customDarkCursorLine                   guibg=#232323  gui=NONE         cterm=NONE
-hi customInvisibleCursorLine              guibg=NONE     gui=NONE         cterm=NONE
-hi customStatusLine                       guibg=#294F6B  gui=NONE         cterm=NONE         |" bg=dark blue
-hi customSelectedItem      guifg=#BFBFBF  guibg=#294F6B  gui=bold         cterm=bold         |" fg=white bg=dark blue
+hi customItalic               guifg=fg       guibg=NONE     gui=italic     cterm=italic
+hi customBold                 guifg=fg       guibg=NONE     gui=bold       cterm=bold
+hi customUnderlined           guifg=fg       guibg=NONE     gui=underline  cterm=underline
 
-hi customQuestion          guifg=#AC6C1C  guibg=NONE     gui=NONE         cterm=NONE         |" fg=gold
-hi customCodeSnippet       guifg=#66FF66  guibg=#232323  gui=NONE         cterm=NONE         |" fg=green bg=gray
-" hi customString            guifg=#A45B36  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
-" hi customString            guifg=#D5A65E  guibg=NONE     gui=italic       cterm=italic       |" fg=pastel
-" hi customString            guifg=#BF9000  guibg=NONE     gui=italic       cterm=italic       |" fg=gold
-" hi customString            guifg=#976151  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
-" hi customString            guifg=#A95C62  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
-" hi customString            guifg=#A27250  guibg=NONE     gui=italic       cterm=italic       |" fg=brown
-hi customString            guifg=#5080A2  guibg=NONE     gui=italic       cterm=italic       |" fg=dark blue
-hi customBoolean           guifg=#ab6f42  guibg=NONE     gui=NONE         cterm=NONE         |" fg=brown
-hi customHeading           guifg=#539ED6  guibg=NONE     gui=bold         cterm=bold         |" fg=blue
-hi customSubHeading        guifg=#4A8EC0  guibg=NONE     gui=NONE         cterm=NONE         |" fg=blue
-hi customPositive          guifg=#00D27F  guibg=NONE     gui=NONE         cterm=NONE         |" fg=green
-hi customNegative          guifg=#CE2B37  guibg=NONE     gui=NONE         cterm=NONE         |" fg=red
-hi customSpecial           guifg=fg       guibg=#282828  gui=NONE         cterm=NONE         |" fg=blue bg=gray
-hi customSpecialKey        guifg=#68AADB  guibg=#282828  gui=NONE         cterm=NONE         |" fg=blue bg=gray
+hi customHighlightedText      guifg=#FFD500  guibg=NONE                                  |" fg=yellow
+hi customUnderstate           guifg=#666666  guibg=NONE     gui=NONE       cterm=NONE    |" fg=white dark
+hi customInvertedNormal       guifg=#181818  guibg=fg       gui=NONE       cterm=NONE    |" fg=black
+hi customInvertedBright       guifg=#181818  guibg=#FFFFFF  gui=NONE       cterm=NONE    |" fg=black bg=white bright
+hi customInvertedUnderstate   guifg=#181818  guibg=#6A6A6A                               |" fg=black bg=black lightest
+
+hi customErrorMsg             guifg=#E5E5E5  guibg=#CE2B37                               |" fg=white normal bg=red
+hi customWarningMsg           guifg=#181818  guibg=#F3B301                               |" fg=black bg=orange
+hi customWarningText          guifg=#F3B301  guibg=NONE     gui=NONE       cterm=NONE    |" fg=orange
+hi customSearch               guifg=#E5E5E5  guibg=#AC6C1C                               |" fg=white normal bg=brown
+hi customLightCursorLine                     guibg=#333333  gui=NONE       cterm=NONE    |" bg=black lighter
+hi customDarkCursorLine                      guibg=#232323  gui=NONE       cterm=NONE    |" bg=black light
+hi customInvisibleCursorLine                 guibg=NONE     gui=NONE       cterm=NONE    |" transparent
+hi customStatusLine           guifg=#181818  guibg=#5080A2  gui=NONE       cterm=NONE    |" fg=black bg=blue
+
+hi customQuestion             guifg=#AC6C1C  guibg=NONE     gui=NONE       cterm=NONE    |" fg=brown
+hi customCodeSnippet          guifg=#44b533  guibg=#181818  gui=NONE       cterm=NONE    |" fg=green bg=black
+hi customString               guifg=#5080A2  guibg=NONE     gui=italic     cterm=italic  |" fg=blue
+hi customConstant             guifg=#5080A2  guibg=NONE     gui=NONE       cterm=NONE    |" fg=blue
+hi customBoolean              guifg=#AC6C1C  guibg=NONE     gui=NONE       cterm=NONE    |" fg=brown
+hi customHeading              guifg=#5080A2  guibg=NONE     gui=bold       cterm=bold    |" fg=blue
+hi customSubHeading           guifg=#5080A2  guibg=NONE     gui=NONE       cterm=NONE    |" fg=blue
+hi customPositive             guifg=#44B533  guibg=NONE     gui=NONE       cterm=NONE    |" fg=green
+hi customNegative             guifg=#CE2B37  guibg=NONE     gui=NONE       cterm=NONE    |" fg=red
+hi customSpecial              guifg=fg       guibg=#232323  gui=NONE       cterm=NONE    |" fg=fg bg=black light
+hi customSpecialKey           guifg=#5080A2  guibg=#232323  gui=NONE       cterm=NONE    |" fg=blue bg=black light
+hi customMatchParen                          guibg=NONE     gui=bold,underline  cterm=bold,underline
 
 
 " Separated groups
@@ -79,9 +91,8 @@ hi! link qflineNr     customUnderstate
 " =============
 
 hi! link Comment    customUnderstate
-hi! link Constant   Normal
+hi! link Constant   customConstant
 hi! link String     customString
-hi! link Number     Normal
 
 hi! link Statement  Normal
 hi! link Type       Normal
@@ -90,7 +101,7 @@ hi! link Identifier Normal
 
 hi! link Todo       customWarningMsg
 hi! link Error      customNegative
-hi Underlined       guifg=fg         guibg=NONE      gui=underline  cterm=underline
+hi! link Underlined customUnderlined
 
 
 " Elements of interface
@@ -102,7 +113,7 @@ hi! link Search       customSearch
 hi! link IncSearch    customInvertedBright
 
 " Indicators and references
-hi MatchParen         guibg=NONE      gui=bold,underline  ctermbg=NONE cterm=bold,underline
+hi! link MatchParen   customMatchParen
 hi! link CursorLine   customInvisibleCursorLine
 hi! link CursorColumn CursorLine
 hi! link CursorLineNr CursorLine
@@ -113,11 +124,11 @@ hi! link Folded       customUnderstate
 hi! link FoldColumn   customUnderstate
 
 " Menus
-hi! link Pmenu        customInvertedUnderstate
-hi! link PmenuSel     customSelectedItem
+hi! link Pmenu        customStatusLine
+hi! link PmenuSel     customInvertedBright
 hi! link PmenuSbar    customInvertedNormal
 hi! link PmenuThumb   Normal
-hi! link WildMenu     customSelectedItem
+hi! link WildMenu     customInvertedBright
 
 " Messages and user interaction
 hi! link ModeMsg      customQuestion
@@ -138,7 +149,6 @@ hi! link StatusLine   customStatusLine
 hi! link StatusLineNC customInvertedUnderstate
 hi! link VertSplit    customInvertedUnderstate
 
-" hi! link TabLine      customInvertedUnderstate
 hi! link TabLine      customUnderstate
 hi! link TabLineFill  Normal
 hi! link TabLineSel   customLightCursorLine
@@ -152,6 +162,12 @@ hi! link DiffChange     customWarningText
 hi! link DiffText       customWarningMsg
 hi! link DiffDelete     customNegative
 
+" syntax/vim.vim file
+" ===================
+
+hi! link vimContinue Normal
+hi! link vimSep      Normal
+hi! link vimParenSep Normal
 
 " syntax/diff.vim file
 " ====================
@@ -202,19 +218,19 @@ hi! link gitcommitUntrackedFile Normal
 hi! link helpHyperTextEntry customUnderstate
 hi! link helpHyperTextJump  Underlined
 
-hi! link helpSpecial    customSpecialKey
+hi! link helpSpecial        customSpecialKey
 
-hi! link helpOption     Underlined
-hi! link helpURL        Underlined
-hi! link helpExample    customCodeSnippet
-hi! link helpCommand    Underlined
-hi  helpSectionDelim    guifg=#A9A9A9
+hi! link helpOption         Underlined
+hi! link helpURL            Underlined
+hi! link helpExample        customCodeSnippet
+hi! link helpCommand        Underlined
+hi! link helpSectionDelim   customUnderstate
 
-hi! link helpNotVi      Title
-hi! link helpHeader     customHeading
-hi! link helpHeadline   customSubHeading
-hi! link helpWarning    customWarningText
-hi! link helpNote       customWarningText
+hi! link helpNotVi          customHeading
+hi! link helpHeader         customHeading
+hi! link helpHeadline       customSubHeading
+hi! link helpWarning        customWarningText
+hi! link helpNote           customWarningText
 
 
 " NERDTree
@@ -264,7 +280,7 @@ hi! link fugitiveSection            customUnderstate
 " tabgar
 " ======
 
-hi! link TagbarHighlight           customSelectedItem
+hi! link TagbarHighlight           customHighlightedText
 hi! link TagbarFoldIcon            customUnderstate
 
 hi! link TagbarVisibilityPrivate   Normal
@@ -287,19 +303,20 @@ hi! link jsThis Normal
 " python
 " ======
 
-hi! link pythonStrInterpRegion String
-hi! link pythonStrFormat String
-hi! link pythonStrFormatting String
+hi! link pythonStrInterpRegion  String
+hi! link pythonStrFormat        String
+hi! link pythonStrFormatting    String
+hi! link pythonDocTest2         customUnderstate
 
 
 " yaml
 " ====
 
-hi! link yamlDocumentStart     customBright
-hi! link yamlBlockMappingKey   customSubHeading
+hi! link yamlDocumentStart     customHighlightedText
+hi! link yamlBlockMappingKey   Normal
 hi! link yamlKeyValueDelimiter Normal
-hi! link yamlPlainScalar       Constant
-hi! link yamlInteger           Number
+hi! link yamlPlainScalar       customConstant
+hi! link yamlInteger           customConstant
 hi! link yamlBool              customBoolean
 hi! link yamlNull              customBoolean
 
