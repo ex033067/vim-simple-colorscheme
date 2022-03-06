@@ -290,4 +290,11 @@ hi! link pythonStrInterpRegion String
 hi! link pythonStrFormat String
 hi! link pythonStrFormatting String
 
+
+" yaml
+" ====
+
+hi! link yamlKeyValueDelimiter Normal
+hi! link yamlPlainScalar       String
+
 " vim: expandtab tabstop=4 shiftwidth=0 softtabstop=4
