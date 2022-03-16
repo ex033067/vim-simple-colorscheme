@@ -52,7 +52,7 @@ hi customWarningMsg           guifg=#181818  guibg=#F3B301                      
 hi customWarningText          guifg=#F3B301  guibg=NONE     gui=NONE       cterm=NONE    |" fg=orange
 hi customSearch               guifg=#E5E5E5  guibg=#AC6C1C                               |" fg=white normal bg=brown
 hi customLightCursorLine                     guibg=#333333  gui=NONE       cterm=NONE    |" bg=black lighter
-hi customDarkCursorLine                      guibg=#232323  gui=NONE       cterm=NONE    |" bg=black light
+hi customDarkCursorLine                      guibg=#1C1C1C  gui=NONE       cterm=NONE    |" bg=black light
 hi customInvisibleCursorLine                 guibg=NONE     gui=NONE       cterm=NONE    |" transparent
 hi customStatusLine           guifg=#181818  guibg=#5080A2  gui=NONE       cterm=NONE    |" fg=black bg=blue
 
