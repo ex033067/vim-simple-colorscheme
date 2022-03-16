@@ -67,7 +67,6 @@ hi customPositive             guifg=#44B533  guibg=NONE     gui=NONE       cterm
 hi customNegative             guifg=#CE2B37  guibg=NONE     gui=NONE       cterm=NONE    |" fg=red
 hi customSpecial              guifg=fg       guibg=#232323  gui=NONE       cterm=NONE    |" fg=fg bg=black light
 hi customSpecialKey           guifg=#5080A2  guibg=#232323  gui=NONE       cterm=NONE    |" fg=blue bg=black light
-hi customMatchParen                          guibg=NONE     gui=bold,underline  cterm=bold,underline
 
 
 " Separated groups
@@ -113,7 +112,7 @@ hi! link Search       customSearch
 hi! link IncSearch    customInvertedBright
 
 " Indicators and references
-hi! link MatchParen   customMatchParen
+hi! link MatchParen   customHighlightedText
 hi! link CursorLine   customInvisibleCursorLine
 hi! link CursorColumn CursorLine
 hi! link CursorLineNr CursorLine
