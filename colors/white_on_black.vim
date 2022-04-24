@@ -53,7 +53,6 @@ hi customWarningText          guifg=#F3B301  guibg=NONE     gui=NONE       cterm
 hi customSearch               guifg=#E5E5E5  guibg=#AC6C1C                               |" fg=white normal bg=brown
 hi customLightCursorLine                     guibg=#333333  gui=NONE       cterm=NONE    |" bg=black lighter
 hi customDarkCursorLine                      guibg=#1C1C1C  gui=NONE       cterm=NONE    |" bg=black light
-hi customInvisibleCursorLine                 guibg=NONE     gui=NONE       cterm=NONE    |" transparent
 hi customStatusLine           guifg=#181818  guibg=#5080A2  gui=NONE       cterm=NONE    |" fg=black bg=blue
 
 hi customQuestion             guifg=#AC6C1C  guibg=NONE     gui=NONE       cterm=NONE    |" fg=brown
@@ -113,7 +112,7 @@ hi! link IncSearch    customInvertedBright
 
 " Indicators and references
 hi! link MatchParen   customHighlightedText
-hi! link CursorLine   customInvisibleCursorLine
+hi! link CursorLine   customDarkCursorLine
 hi! link CursorColumn CursorLine
 hi! link CursorLineNr CursorLine
 hi! link ColorColumn  CursorLine
