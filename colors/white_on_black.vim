@@ -114,7 +114,7 @@ hi! link IncSearch    customInvertedBright
 hi! link MatchParen   customHighlightedText
 hi! link CursorLine   customDarkCursorLine
 hi! link CursorColumn CursorLine
-hi! link CursorLineNr CursorLine
+hi! link CursorLineNr customHighlightedText
 hi! link ColorColumn  CursorLine
 hi! link LineNr       customUnderstate
 hi! link SignColumn   Normal
