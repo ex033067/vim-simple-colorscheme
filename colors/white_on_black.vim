@@ -36,6 +36,7 @@ let g:colors_name = 'white_on_black'
 
 
 hi Normal                     guifg=#BFBFBF  guibg=NONE                                  |" fg=white normal
+hi Terminal                   guifg=#BFBFBF  guibg=#181818                               |" fg=white bg=almost black
 
 hi customItalic               guifg=fg       guibg=NONE     gui=italic     cterm=italic
 hi customBold                 guifg=fg       guibg=NONE     gui=bold       cterm=bold
