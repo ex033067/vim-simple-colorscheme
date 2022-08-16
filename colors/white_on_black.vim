@@ -42,7 +42,7 @@ hi customItalic               guifg=fg       guibg=NONE     gui=italic     cterm
 hi customBold                 guifg=fg       guibg=NONE     gui=bold       cterm=bold
 hi customUnderlined           guifg=fg       guibg=NONE     gui=underline  cterm=underline
 
-hi customHighlightedText      guifg=#FFD500  guibg=NONE                                  |" fg=yellow
+hi customHighlightedText      guifg=#FFD500  guibg=NONE     gui=bold       cterm=bold    |" fg=yellow
 hi customUnderstate           guifg=#666666  guibg=NONE     gui=NONE       cterm=NONE    |" fg=white dark
 hi customInvertedNormal       guifg=#181818  guibg=fg       gui=NONE       cterm=NONE    |" fg=black
 hi customInvertedBright       guifg=#181818  guibg=#FFFFFF  gui=NONE       cterm=NONE    |" fg=black bg=white bright
