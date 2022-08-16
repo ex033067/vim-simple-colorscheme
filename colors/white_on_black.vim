@@ -51,7 +51,8 @@ hi customInvertedUnderstate   guifg=#181818  guibg=#6A6A6A                      
 hi customErrorMsg             guifg=#E5E5E5  guibg=#CE2B37                               |" fg=white normal bg=red
 hi customWarningMsg           guifg=#181818  guibg=#F3B301                               |" fg=black bg=orange
 hi customWarningText          guifg=#F3B301  guibg=NONE     gui=NONE       cterm=NONE    |" fg=orange
-hi customSearch               guifg=#E5E5E5  guibg=#AC6C1C                               |" fg=white normal bg=brown
+hi customSearch               guifg=#FFD500  guibg=NONE     gui=bold,underline cterm=bold,underline    |" fg=yellow
+hi customInvertedSearch       guifg=#000000  guibg=#FFD500  gui=bold       cterm=bold    |" fg=black bg=yellow
 hi customLightCursorLine                     guibg=#333333  gui=NONE       cterm=NONE    |" bg=black lighter
 hi customDarkCursorLine                      guibg=#1C1C1C  gui=NONE       cterm=NONE    |" bg=black light
 hi customStatusLine           guifg=#181818  guibg=#5080A2  gui=NONE       cterm=NONE    |" fg=black bg=blue
@@ -109,7 +110,7 @@ hi! link Underlined customUnderlined
 " Visual mode and Search
 hi! link Visual       customLightCursorLine
 hi! link Search       customSearch
-hi! link IncSearch    customInvertedBright
+hi! link IncSearch    customInvertedSearch
 
 " Indicators and references
 hi! link MatchParen   customHighlightedText
