@@ -42,7 +42,8 @@ hi customItalic               guifg=fg       guibg=NONE     gui=italic     cterm
 hi customBold                 guifg=fg       guibg=NONE     gui=bold       cterm=bold
 hi customUnderlined           guifg=fg       guibg=NONE     gui=underline  cterm=underline
 
-hi customHighlightedText      guifg=#FFD500  guibg=NONE     gui=bold       cterm=bold    |" fg=yellow
+hi customHighlightedText      guifg=#FFD500  guibg=NONE     gui=NONE       cterm=NONE    |" fg=yellow
+hi customStrongHighlightedText guifg=#FFD500 guibg=NONE     gui=bold       cterm=bold    |" fg=yellow bold
 hi customUnderstate           guifg=#666666  guibg=NONE     gui=NONE       cterm=NONE    |" fg=white dark
 hi customInvertedNormal       guifg=#181818  guibg=fg       gui=NONE       cterm=NONE    |" fg=black
 hi customInvertedBright       guifg=#181818  guibg=#FFFFFF  gui=NONE       cterm=NONE    |" fg=black bg=white bright
@@ -113,7 +114,7 @@ hi! link Search       customSearch
 hi! link IncSearch    customInvertedSearch
 
 " Indicators and references
-hi! link MatchParen   customHighlightedText
+hi! link MatchParen   customStrongHighlightedText
 hi! link CursorLine   customDarkCursorLine
 hi! link CursorColumn CursorLine
 hi! link CursorLineNr customHighlightedText
