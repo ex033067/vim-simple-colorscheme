@@ -20,7 +20,7 @@ let g:colors_name = 'white_on_black'
 " --------------- ---------- ----------
 " white bright    #E5E5E5    #FFFFFF
 " white normal    #BFBFBF
-" white dark      #666666
+" white dark      #7d7d7d
 " black           #181818    #181818
 " black light                #232323
 " black lighter              #333333
@@ -44,7 +44,7 @@ hi customUnderlined           guifg=fg       guibg=NONE     gui=underline  cterm
 
 hi customHighlightedText      guifg=#FFD500  guibg=NONE     gui=NONE       cterm=NONE    |" fg=yellow
 hi customStrongHighlightedText guifg=#FFD500 guibg=NONE     gui=bold       cterm=bold    |" fg=yellow bold
-hi customUnderstate           guifg=#666666  guibg=NONE     gui=NONE       cterm=NONE    |" fg=white dark
+hi customUnderstate           guifg=#7d7d7d  guibg=NONE     gui=NONE       cterm=NONE    |" fg=white dark
 hi customInvertedNormal       guifg=#181818  guibg=fg       gui=NONE       cterm=NONE    |" fg=black
 hi customInvertedBright       guifg=#181818  guibg=#FFFFFF  gui=NONE       cterm=NONE    |" fg=black bg=white bright
 hi customInvertedUnderstate   guifg=#181818  guibg=#6A6A6A                               |" fg=black bg=black lightest
@@ -248,7 +248,7 @@ hi! link NERDTreeUp             customUnderstate
 hi! link NERDTreeCWD            customUnderstate
 hi! link NERDTreeDir            customUnderstate
 hi! link NERDTreeDirSlash       customUnderstate
-hi NERDTreeFile guifg=#666666 guibg=NONE |" It sould be linked to customUnderstate, but there is a bug in NERDTree
+hi NERDTreeFile guifg=#7d7d7d guibg=NONE |" It sould be linked to customUnderstate, but there is a bug in NERDTree
 hi! link NERDTreeExecFile       Normal
 hi! link NERDTreeOpenable       customUnderstate
 hi! link NERDTreeClosable       customUnderstate
