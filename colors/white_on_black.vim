@@ -42,17 +42,18 @@ hi customItalic               guifg=fg       guibg=NONE     gui=italic     cterm
 hi customBold                 guifg=fg       guibg=NONE     gui=bold       cterm=bold
 hi customUnderlined           guifg=fg       guibg=NONE     gui=underline  cterm=underline
 
+hi customDocumentation        guifg=#7d7d7d  guibg=NONE     gui=italic     cterm=italic  |" fg=white dark italic
+hi customTodo                 guifg=#C3CB71  guibg=NONE     gui=italic     cterm=italic  |" fg=light green italic
+
 hi customHighlightedText      guifg=#FFD500  guibg=NONE     gui=NONE       cterm=NONE    |" fg=yellow
 hi customStrongHighlightedText guifg=#FFD500 guibg=NONE     gui=bold       cterm=bold    |" fg=yellow bold
 hi customUnderstate           guifg=#7d7d7d  guibg=NONE     gui=NONE       cterm=NONE    |" fg=white dark
-hi customDocumentation        guifg=#7d7d7d  guibg=NONE     gui=italic     cterm=italic  |" fg=white dark italic
 hi customInvertedNormal       guifg=#181818  guibg=fg       gui=NONE       cterm=NONE    |" fg=black
 hi customInvertedBright       guifg=#181818  guibg=#FFFFFF  gui=NONE       cterm=NONE    |" fg=black bg=white bright
 hi customInvertedUnderstate   guifg=#181818  guibg=#6A6A6A                               |" fg=black bg=black lightest
 
 hi customErrorMsg             guifg=#E5E5E5  guibg=#CE2B37                               |" fg=white normal bg=red
 hi customWarningMsg           guifg=#181818  guibg=#F3B301                               |" fg=black bg=orange
-hi customTodo                 guifg=#C3CB71  guibg=NONE     gui=italic     cterm=italic  |" fg=light green italic
 hi customWarningText          guifg=#F3B301  guibg=NONE     gui=NONE       cterm=NONE    |" fg=orange
 hi customSearch               guifg=#FFD500  guibg=NONE     gui=underline  cterm=underline    |" fg=yellow underlined
 hi customInvertedSearch       guifg=#000000  guibg=#FFD500  gui=bold       cterm=bold    |" fg=black bg=yellow
