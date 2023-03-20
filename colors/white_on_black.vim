@@ -45,6 +45,7 @@ hi customUnderlined           guifg=fg       guibg=NONE     gui=underline  cterm
 hi customHighlightedText      guifg=#FFD500  guibg=NONE     gui=NONE       cterm=NONE    |" fg=yellow
 hi customStrongHighlightedText guifg=#FFD500 guibg=NONE     gui=bold       cterm=bold    |" fg=yellow bold
 hi customUnderstate           guifg=#7d7d7d  guibg=NONE     gui=NONE       cterm=NONE    |" fg=white dark
+hi customDocumentation        guifg=#7d7d7d  guibg=NONE     gui=italic     cterm=italic  |" fg=white dark italic
 hi customInvertedNormal       guifg=#181818  guibg=fg       gui=NONE       cterm=NONE    |" fg=black
 hi customInvertedBright       guifg=#181818  guibg=#FFFFFF  gui=NONE       cterm=NONE    |" fg=black bg=white bright
 hi customInvertedUnderstate   guifg=#181818  guibg=#6A6A6A                               |" fg=black bg=black lightest
