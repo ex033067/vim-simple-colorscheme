@@ -47,10 +47,10 @@ hi white_on_black_Todo                 guifg=#C3CB71  guibg=NONE     gui=italic 
 
 hi white_on_black_HighlightedText      guifg=#FFD500  guibg=NONE     gui=NONE       cterm=NONE    |" fg=yellow
 hi white_on_black_StrongHighlightedText guifg=#FFD500 guibg=NONE     gui=bold       cterm=bold    |" fg=yellow bold
-hi white_on_black_Understate           guifg=#7d7d7d  guibg=NONE     gui=NONE       cterm=NONE    |" fg=white dark
+hi white_on_black_Faded                guifg=#7d7d7d  guibg=NONE     gui=NONE       cterm=NONE    |" fg=white dark
 hi white_on_black_InvertedNormal       guifg=#181818  guibg=fg       gui=NONE       cterm=NONE    |" fg=black
 hi white_on_black_InvertedBright       guifg=#181818  guibg=#FFFFFF  gui=NONE       cterm=NONE    |" fg=black bg=white bright
-hi white_on_black_InvertedUnderstate   guifg=#181818  guibg=#6A6A6A                               |" fg=black bg=black lightest
+hi white_on_black_FadedInverted   guifg=#181818  guibg=#6A6A6A                               |" fg=black bg=black lightest
 
 hi white_on_black_ErrorMsg             guifg=#E5E5E5  guibg=#CE2B37                               |" fg=white normal bg=red
 hi white_on_black_WarningMsg           guifg=#181818  guibg=#F3B301                               |" fg=black bg=orange
@@ -81,20 +81,20 @@ hi! link Directory    Normal
 hi! link Special      white_on_black_Special
 hi! link SpecialKey   white_on_black_SpecialKey
 
-hi! link Ignore       white_on_black_Understate
-hi! link Conceal      white_on_black_Understate
-hi! link NonText      white_on_black_Understate
-hi! link EndOfBuffer  white_on_black_Understate
+hi! link Ignore       white_on_black_Faded
+hi! link Conceal      white_on_black_Faded
+hi! link NonText      white_on_black_Faded
+hi! link EndOfBuffer  white_on_black_Faded
 
 hi! link QuickFixLine white_on_black_LightCursorLine
-hi! link qfFileName   white_on_black_Understate
-hi! link qflineNr     white_on_black_Understate
+hi! link qfFileName   white_on_black_Faded
+hi! link qflineNr     white_on_black_Faded
 
 
 " Syntax groups
 " =============
 
-hi! link Comment    white_on_black_Understate
+hi! link Comment    white_on_black_Faded
 hi! link Constant   white_on_black_Constant
 hi! link String     white_on_black_String
 
@@ -122,10 +122,10 @@ hi! link CursorLine   white_on_black_DarkCursorLine
 hi! link CursorColumn CursorLine
 hi! link CursorLineNr white_on_black_HighlightedText
 hi! link ColorColumn  CursorLine
-hi! link LineNr       white_on_black_Understate
+hi! link LineNr       white_on_black_Faded
 hi! link SignColumn   Normal
-hi! link Folded       white_on_black_Understate
-hi! link FoldColumn   white_on_black_Understate
+hi! link Folded       white_on_black_Faded
+hi! link FoldColumn   white_on_black_Faded
 
 " Menus
 hi! link Pmenu        white_on_black_StatusLine
@@ -150,10 +150,10 @@ hi! link SpellLocal   white_on_black_WarningMsg
 
 " Bars, lines and dividers
 hi! link StatusLine   white_on_black_StatusLine
-hi! link StatusLineNC white_on_black_InvertedUnderstate
-hi! link VertSplit    white_on_black_InvertedUnderstate
+hi! link StatusLineNC white_on_black_FadedInverted
+hi! link VertSplit    white_on_black_FadedInverted
 
-hi! link TabLine      white_on_black_Understate
+hi! link TabLine      white_on_black_Faded
 hi! link TabLineFill  Normal
 hi! link TabLineSel   white_on_black_LightCursorLine
 
@@ -204,22 +204,22 @@ hi! link gitcommitBranch  Normal
 hi! link gitcommitHeader  Normal
 hi! link gitcommitDiff    Normal
 
-hi! link gitcommitSelected     white_on_black_Understate
+hi! link gitcommitSelected     white_on_black_Faded
 hi! link gitcommitSelectedType white_on_black_Positive
 hi! link gitcommitSelectedFile white_on_black_Positive
 
-hi! link gitcommitDiscarded     white_on_black_Understate
-hi! link gitcommitDiscardedType white_on_black_Understate
-hi! link gitcommitDiscardedFile white_on_black_Understate
+hi! link gitcommitDiscarded     white_on_black_Faded
+hi! link gitcommitDiscardedType white_on_black_Faded
+hi! link gitcommitDiscardedFile white_on_black_Faded
 
-hi! link gitcommitUntracked     white_on_black_Understate
+hi! link gitcommitUntracked     white_on_black_Faded
 hi! link gitcommitUntrackedFile Normal
 
 
 " Help groups
 " ===========
 
-hi! link helpHyperTextEntry white_on_black_Understate
+hi! link helpHyperTextEntry white_on_black_Faded
 hi! link helpHyperTextJump  Underlined
 
 hi! link helpSpecial        white_on_black_SpecialKey
@@ -228,7 +228,7 @@ hi! link helpOption         Underlined
 hi! link helpURL            Underlined
 hi! link helpExample        white_on_black_CodeSnippet
 hi! link helpCommand        Underlined
-hi! link helpSectionDelim   white_on_black_Understate
+hi! link helpSectionDelim   white_on_black_Faded
 
 hi! link helpNotVi          white_on_black_Heading
 hi! link helpHeader         white_on_black_Heading
@@ -240,52 +240,52 @@ hi! link helpNote           white_on_black_WarningText
 " NERDTree
 " ========
 
-hi! link NERDTreeHelp           white_on_black_Understate
+hi! link NERDTreeHelp           white_on_black_Faded
 hi! link NERDTreeHelpTitle      white_on_black_SubHeading
 hi! link NERDTreeHelpKey        Normal
 hi! link NERDTreeHelpCommand    Normal
 hi! link NERDTreeToggleOff      white_on_black_Negative
 hi! link NERDTreeToggleOn       white_on_black_Positive
 
-hi! link NERDTreeUp             white_on_black_Understate
-hi! link NERDTreeCWD            white_on_black_Understate
-hi! link NERDTreeDir            white_on_black_Understate
-hi! link NERDTreeDirSlash       white_on_black_Understate
-hi NERDTreeFile guifg=#7d7d7d guibg=NONE |" It sould be linked to white_on_black_Understate, but there is a bug in NERDTree
+hi! link NERDTreeUp             white_on_black_Faded
+hi! link NERDTreeCWD            white_on_black_Faded
+hi! link NERDTreeDir            white_on_black_Faded
+hi! link NERDTreeDirSlash       white_on_black_Faded
+hi NERDTreeFile guifg=#7d7d7d guibg=NONE |" It sould be linked to white_on_black_Faded, but there is a bug in NERDTree
 hi! link NERDTreeExecFile       Normal
-hi! link NERDTreeOpenable       white_on_black_Understate
-hi! link NERDTreeClosable       white_on_black_Understate
+hi! link NERDTreeOpenable       white_on_black_Faded
+hi! link NERDTreeClosable       white_on_black_Faded
 
 
 " vim-fugitive
 " ============
 
 hi! link fugitiveHeader             Normal
-hi! link fugitiveSymbolicRef        white_on_black_Understate
+hi! link fugitiveSymbolicRef        white_on_black_Faded
 
 hi! link fugitiveCount              Normal
 hi! link fugitiveUntrackedHeading   Normal
-hi! link fugitiveUntrackedModifier  white_on_black_Understate
-hi! link fugitiveUntrackedSection   white_on_black_Understate
+hi! link fugitiveUntrackedModifier  white_on_black_Faded
+hi! link fugitiveUntrackedSection   white_on_black_Faded
 
 hi! link fugitiveUnstagedHeading    Normal
-hi! link fugitiveUnstagedModifier   white_on_black_Understate
-hi! link fugitiveUnstagedSection    white_on_black_Understate
+hi! link fugitiveUnstagedModifier   white_on_black_Faded
+hi! link fugitiveUnstagedSection    white_on_black_Faded
 
 hi! link fugitiveStagedHeading      white_on_black_Positive
 hi! link fugitiveStagedModifier     white_on_black_Positive
 hi! link fugitiveStagedSection      white_on_black_Positive
 
 hi! link fugitiveHeading            Normal
-hi! link fugitiveHash               white_on_black_Understate
-hi! link fugitiveSection            white_on_black_Understate
+hi! link fugitiveHash               white_on_black_Faded
+hi! link fugitiveSection            white_on_black_Faded
 
 
 " tabgar
 " ======
 
 hi! link TagbarHighlight           white_on_black_HighlightedText
-hi! link TagbarFoldIcon            white_on_black_Understate
+hi! link TagbarFoldIcon            white_on_black_Faded
 
 hi! link TagbarVisibilityPrivate   Normal
 hi! link TagbarVisibilityProtected Normal
@@ -310,7 +310,7 @@ hi! link jsThis Normal
 hi! link pythonStrInterpRegion  String
 hi! link pythonStrFormat        String
 hi! link pythonStrFormatting    String
-hi! link pythonDocTest2         white_on_black_Understate
+hi! link pythonDocTest2         white_on_black_Faded
 hi! link pythonDocstring        white_on_black_Documentation
 
 
