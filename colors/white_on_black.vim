@@ -309,6 +309,7 @@ hi! link pythonStrInterpRegion  String
 hi! link pythonStrFormat        String
 hi! link pythonStrFormatting    String
 hi! link pythonDocTest2         customUnderstate
+hi! link pythonDocstring        customDocumentation
 
 
 " yaml
