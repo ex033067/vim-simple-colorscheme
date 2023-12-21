@@ -13,7 +13,7 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let g:colors_name = 'white_on_black'
+let g:colors_name = 'black_on_white'
 
 
 " Color           Foreground Background
