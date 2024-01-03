@@ -21,7 +21,7 @@ let g:colors_name = 'black_on_white'
 " black         #000000         #333333
 " blue                  #C1DDFF #5080A2
 " yellow                        #FFD500
-" orange                        #F3B301
+" orange                #FCEFCC #F3B301
 " brown                         #AC6C1C
 " green                         #44B533
 " red                           #CE2B37
@@ -61,7 +61,7 @@ hi bow_ErrorMsg             guifg=#E5E5E5  guibg=#CE2B37                        
 hi bow_Question             guifg=#AC6C1C  guibg=NONE     gui=NONE       cterm=NONE    |" fg=brown
 hi bow_WarningMsg           guifg=#333333  guibg=#F3B301                               |" fg=black bg=orange
 hi bow_WarningText          guifg=#F3B301  guibg=NONE     gui=NONE       cterm=NONE    |" fg=orange
-hi bow_Search               guifg=#E5E5E5  guibg=#333333  gui=NONE       cterm=NONE    |" fg=light gray bg=black
+hi bow_Search                              guibg=#FCEFCC  gui=NONE       cterm=NONE    |" bg=light orange
 hi bow_IncSearch            guifg=#333333  guibg=#FFD500  gui=NONE       cterm=NONE    |" fg=black bg=yellow
 hi white_on_black_Boolean   guifg=#AC6C1C  guibg=NONE     gui=NONE       cterm=NONE    |" fg=brown
 
