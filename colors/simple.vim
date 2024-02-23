@@ -86,7 +86,7 @@ hi! link PmenuThumb   Normal
 hi! link QuickFixLine CursorLine
 hi! link qfFileName   NonText
 hi! link qflineNr     NonText
-hi! link SpellBad     ErrorMsg
+hi! link SpellBad     WarningMsg
 hi! link SpellCap     WarningMsg
 hi! link SpellLocal   WarningMsg
 hi! link SpellRare    WarningMsg
