@@ -54,7 +54,7 @@ if &background == "light"
     hi Constant     guifg=#2980B9  guibg=NONE     gui=NONE       cterm=NONE    |" fg=blue
     hi Special      guifg=#2980B9  guibg=NONE     gui=NONE       cterm=NONE    |" fg=blue
     hi Underlined   guifg=fg       guibg=NONE     gui=underline  cterm=underline
-    hi String       guifg=#2980B9  guibg=NONE     gui=italic     cterm=italic  |" fg=blue
+    hi String       guifg=#2980B9  guibg=NONE     gui=NONE       cterm=NONE  |" fg=blue
 
     " hi @text.literal guifg=#008744  guibg=NONE     gui=NONE       cterm=NONE    |" fg=green
     hi @text.literal guifg=#2980B9  guibg=NONE     gui=NONE       cterm=NONE    |" fg=blue
