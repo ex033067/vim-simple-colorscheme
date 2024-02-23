@@ -33,38 +33,38 @@ if &background == "light"
     hi Normal       guifg=#333333  guibg=NONE                                  |" fg=black
 
     " UI highlight groups
-    hi CursorLine                  guibg=#C1DDFF  gui=NONE       cterm=NONE    |" bg=light blue
-    hi CursorLineNr guifg=#000000  guibg=NONE     gui=bold       cterm=bold    |" fg=dark black
-    hi StatusLine   guifg=#E5E5E5  guibg=#005B96  gui=NONE       cterm=NONE    |" fg=light gray bg=blue
+    hi CursorLine                  guibg=#C1DDFF  gui=NONE           |" bg=light blue
+    hi CursorLineNr guifg=#000000  guibg=NONE     gui=bold           |" fg=dark black
+    hi StatusLine   guifg=#E5E5E5  guibg=#005B96  gui=NONE           |" fg=light gray bg=blue
     hi StatusLineNC guifg=#999999  guibg=#E5E5E5                               |" fg=gray bg=light gray
     hi Comment      guifg=#999999  guibg=NONE     gui=italic                   |" fg=gray italic
-    hi NonText      guifg=#999999  guibg=NONE     gui=nocombine  cterm=NONE    |" fg=gray
-    hi DiffAdd      guifg=#44B533  guibg=NONE     gui=NONE       cterm=NONE    |" fg=green
-    hi DiffChange   guifg=#F3B301  guibg=NONE     gui=NONE       cterm=NONE    |" fg=orange
-    hi DiffDelete   guifg=#CE2B37  guibg=NONE     gui=NONE       cterm=NONE    |" fg=red
+    hi NonText      guifg=#999999  guibg=NONE     gui=nocombine      |" fg=gray
+    hi DiffAdd      guifg=#44B533  guibg=NONE     gui=NONE           |" fg=green
+    hi DiffChange   guifg=#F3B301  guibg=NONE     gui=NONE           |" fg=orange
+    hi DiffDelete   guifg=#CE2B37  guibg=NONE     gui=NONE           |" fg=red
     hi ErrorMsg     guifg=#E5E5E5  guibg=#CE2B37                               |" fg=light gray bg=red
     hi WarningMsg   guifg=#333333  guibg=#F3B301                               |" fg=black bg=orange
-    hi Search                      guibg=#FCEFCC  gui=NONE       cterm=NONE    |" bg=light orange
-    hi IncSearch    guifg=#333333  guibg=#FFD500  gui=NONE       cterm=NONE    |" fg=black bg=yellow
-    hi Question     guifg=#AC6C1C  guibg=NONE     gui=NONE       cterm=NONE    |" fg=brown - Press ENTER or type command to continue
-    hi SpecialKey   guifg=#2980B9  guibg=#E5E5E5  gui=NONE       cterm=NONE    |" fg=blue bg=light gray
-    hi Title        guifg=fg  guibg=NONE     gui=bold       cterm=bold    |" fg=blue
+    hi Search                      guibg=#FCEFCC  gui=NONE           |" bg=light orange
+    hi IncSearch    guifg=#333333  guibg=#FFD500  gui=NONE           |" fg=black bg=yellow
+    hi Question     guifg=#AC6C1C  guibg=NONE     gui=NONE           |" fg=brown - Press ENTER or type command to continue
+    hi SpecialKey   guifg=#2980B9  guibg=#E5E5E5  gui=NONE           |" fg=blue bg=light gray
+    hi Title        guifg=fg  guibg=NONE     gui=bold           |" fg=blue
 
     " Syntax highlight groups
-    hi Constant     guifg=#2980B9  guibg=NONE     gui=NONE       cterm=NONE    |" fg=blue
-    hi Special      guifg=#2980B9  guibg=NONE     gui=NONE       cterm=NONE    |" fg=blue
-    hi Underlined   guifg=fg       guibg=NONE     gui=underline  cterm=underline
-    hi String       guifg=#2980B9  guibg=NONE     gui=NONE       cterm=NONE  |" fg=blue
+    hi Constant     guifg=#2980B9  guibg=NONE     gui=NONE           |" fg=blue
+    hi Special      guifg=#2980B9  guibg=NONE     gui=NONE           |" fg=blue
+    hi Underlined   guifg=fg       guibg=NONE     gui=underline  
+    hi String       guifg=#2980B9  guibg=NONE     gui=NONE         |" fg=blue
 
-    " hi @text.literal guifg=#008744  guibg=NONE     gui=NONE       cterm=NONE    |" fg=green
-    hi @text.literal guifg=#2980B9  guibg=NONE     gui=NONE       cterm=NONE    |" fg=blue
+    " hi @text.literal guifg=#008744  guibg=NONE     gui=NONE           |" fg=green
+    hi @text.literal guifg=#2980B9  guibg=NONE     gui=NONE           |" fg=blue
     hi @text.strike gui=strikethrough
     hi @text.quote gui=italic
     hi @text.strong.markdown_inline gui=bold
     hi @text.emphasis.markdown_inline gui=italic
     
     " Named constants
-    hi hlsimple_Head2     guifg=#2980B9  guibg=NONE     gui=NONE       cterm=NONE    |" fg=blue
+    hi hlsimple_Head2     guifg=#2980B9  guibg=NONE     gui=NONE           |" fg=blue
 else
     echo "dark"
 endif
