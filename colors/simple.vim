@@ -37,6 +37,7 @@ if &background == "light"
     hi CursorLineNr guifg=#000000  guibg=NONE     gui=bold       cterm=bold    |" fg=dark black
     hi StatusLine   guifg=#E5E5E5  guibg=#005B96  gui=NONE       cterm=NONE    |" fg=light gray bg=blue
     hi StatusLineNC guifg=#999999  guibg=#E5E5E5                               |" fg=gray bg=light gray
+    hi Comment      guifg=#999999  guibg=NONE     gui=italic                   |" fg=gray italic
     hi NonText      guifg=#999999  guibg=NONE     gui=nocombine  cterm=NONE    |" fg=gray
     hi DiffAdd      guifg=#44B533  guibg=NONE     gui=NONE       cterm=NONE    |" fg=green
     hi DiffChange   guifg=#F3B301  guibg=NONE     gui=NONE       cterm=NONE    |" fg=orange
@@ -120,7 +121,6 @@ hi! link WildMenu     CursorLine
 " Tooltip
 
 " Links for syntax
-hi! link Comment    NonText
 hi! link Identifier Normal
 hi! link Statement  Normal
 hi! link PreProc    Normal
