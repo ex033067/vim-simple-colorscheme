@@ -65,8 +65,6 @@ if &background == "light"
     
     " Named constants
     hi hlsimple_Head2     guifg=#2980B9  guibg=NONE     gui=NONE       cterm=NONE    |" fg=blue
-    hi hlsimple_Boolean   guifg=#AC6C1C  guibg=NONE     gui=NONE       cterm=NONE    |" fg=brown
-    hi hlsimple_Strikethrough gui=strikethrough
 else
     echo "dark"
 endif
