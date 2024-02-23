@@ -1,21 +1,29 @@
-# White letters over Black background #
+# Simple colorscheme for neovim #
 
-![White on black colorscheme](screenshot.png)
+Mostly black letters over white background. Great to focus. Only a few
+comfortable colors. Looks good in low light rooms.
 
-Comfortable and just a few colors. Good to focus and concentrate.
+Characteristics:
+- White background.
+- Most texts in black.
+- Comments are gray and italicized.
+- Strings and code blocks in comfortable blue.
+- UI blue and gray.
 
-Best if your terminal supports _italic_ and **bold**.
+Even better if your terminal supports _italic_ and **bold**.
+
+Treesitter-aware for some highlight groups.
 
 
 ## Installation ##
 
 Using Vundle:
 
-    Plugin 'viniciusban/vim-white-on-black-colorscheme'
+    Plugin 'ex033067/vim-simple-colorscheme'
     set termguicolors
-    colorscheme white_on_black
+    colorscheme simple
 
 
-## License
+## License ##
 
 MIT.
