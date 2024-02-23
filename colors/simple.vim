@@ -30,41 +30,41 @@ if &background == "light"
     " cyan (future)         #00B2B2        
     " ------------- ------- ------- -------
 
-    hi Normal       guifg=#333333  guibg=NONE                                  |" fg=black
+    hi Normal       guifg=#333333  guibg=NONE
 
     " UI highlight groups
-    hi CursorLine                  guibg=#C1DDFF  gui=NONE           |" bg=light blue
-    hi CursorLineNr guifg=#000000  guibg=NONE     gui=bold           |" fg=dark black
-    hi StatusLine   guifg=#E5E5E5  guibg=#005B96  gui=NONE           |" fg=light gray bg=blue
-    hi StatusLineNC guifg=#999999  guibg=#E5E5E5                               |" fg=gray bg=light gray
-    hi Comment      guifg=#999999  guibg=NONE     gui=italic                   |" fg=gray italic
-    hi NonText      guifg=#999999  guibg=NONE     gui=nocombine      |" fg=gray
-    hi DiffAdd      guifg=#44B533  guibg=NONE     gui=NONE           |" fg=green
-    hi DiffChange   guifg=#F3B301  guibg=NONE     gui=NONE           |" fg=orange
-    hi DiffDelete   guifg=#CE2B37  guibg=NONE     gui=NONE           |" fg=red
-    hi ErrorMsg     guifg=#E5E5E5  guibg=#CE2B37                               |" fg=light gray bg=red
-    hi WarningMsg   guifg=#333333  guibg=#F3B301                               |" fg=black bg=orange
-    hi Search                      guibg=#FCEFCC  gui=NONE           |" bg=light orange
-    hi IncSearch    guifg=#333333  guibg=#FFD500  gui=NONE           |" fg=black bg=yellow
-    hi Question     guifg=#AC6C1C  guibg=NONE     gui=NONE           |" fg=brown - Press ENTER or type command to continue
-    hi SpecialKey   guifg=#2980B9  guibg=#E5E5E5  gui=NONE           |" fg=blue bg=light gray
-    hi Title        guifg=fg  guibg=NONE     gui=bold           |" fg=blue
+    hi CursorLine                  guibg=#C1DDFF  gui=NONE
+    hi CursorLineNr guifg=#000000  guibg=NONE     gui=bold
+    hi StatusLine   guifg=#E5E5E5  guibg=#005B96  gui=NONE
+    hi StatusLineNC guifg=#999999  guibg=#E5E5E5
+    hi Comment      guifg=#999999  guibg=NONE     gui=italic
+    hi NonText      guifg=#999999  guibg=NONE     gui=nocombine
+    hi DiffAdd      guifg=#44B533  guibg=NONE     gui=NONE
+    hi DiffChange   guifg=#F3B301  guibg=NONE     gui=NONE
+    hi DiffDelete   guifg=#CE2B37  guibg=NONE     gui=NONE
+    hi ErrorMsg     guifg=#E5E5E5  guibg=#CE2B37
+    hi WarningMsg   guifg=#333333  guibg=#F3B301
+    hi Search                      guibg=#FCEFCC  gui=NONE
+    hi IncSearch    guifg=#333333  guibg=#FFD500  gui=NONE
+    hi Question     guifg=#AC6C1C  guibg=NONE     gui=NONE    |" Press ENTER or type command to continue
+    hi SpecialKey   guifg=#2980B9  guibg=#E5E5E5  gui=NONE
+    hi Title        guifg=fg  guibg=NONE     gui=bold
 
     " Syntax highlight groups
-    hi Constant     guifg=#2980B9  guibg=NONE     gui=NONE           |" fg=blue
-    hi Special      guifg=#2980B9  guibg=NONE     gui=NONE           |" fg=blue
+    hi Constant     guifg=#2980B9  guibg=NONE     gui=NONE
+    hi Special      guifg=#2980B9  guibg=NONE     gui=NONE
     hi Underlined   guifg=fg       guibg=NONE     gui=underline  
-    hi String       guifg=#2980B9  guibg=NONE     gui=NONE         |" fg=blue
+    hi String       guifg=#2980B9  guibg=NONE     gui=NONE
 
-    " hi @text.literal guifg=#008744  guibg=NONE     gui=NONE           |" fg=green
-    hi @text.literal guifg=#2980B9  guibg=NONE     gui=NONE           |" fg=blue
+    " hi @text.literal guifg=#008744  guibg=NONE     gui=NONE
+    hi @text.literal guifg=#2980B9  guibg=NONE     gui=NONE
     hi @text.strike gui=strikethrough
     hi @text.quote gui=italic
     hi @text.strong.markdown_inline gui=bold
     hi @text.emphasis.markdown_inline gui=italic
-    
+
     " Named constants
-    hi hlsimple_Head2     guifg=#2980B9  guibg=NONE     gui=NONE           |" fg=blue
+    hi hlsimple_Head2     guifg=#2980B9  guibg=NONE     gui=NONE
 else
     echo "dark"
 endif
