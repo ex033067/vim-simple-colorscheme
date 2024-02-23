@@ -203,6 +203,16 @@ hi! link fugitiveStagedSection      DiffAdd
 " hi! link pythonStrFormatting    String
 " hi! link pythonDocTest2         NonText
 " hi! link pythonDocstring        String
+hi! link @boolean.python Normal
+hi! link @constant.builtin.python Normal
+hi! link @constant.python Normal
+hi! link @constructor.python Normal
+hi! link @function.builtin.python Normal
+hi! link @number.python Normal
+hi! link @float.python Normal
+hi! link @punctuation.bracket.python Normal
+hi! link @punctuation.delimiter.comment Comment
+hi! link @punctuation.delimiter.python Normal
 
 " yaml
 hi! link @string.yaml Constant
