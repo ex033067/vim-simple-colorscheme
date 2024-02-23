@@ -55,16 +55,11 @@ if &background == "light"
     hi Special      guifg=#2980B9  guibg=NONE     gui=NONE
     hi Underlined   guifg=fg       guibg=NONE     gui=underline
     hi String       guifg=#2980B9  guibg=NONE     gui=NONE
-
-    " hi @text.literal guifg=#008744  guibg=NONE     gui=NONE
     hi @text.literal guifg=#2980B9  guibg=NONE     gui=NONE
     hi @text.strike gui=strikethrough
     hi @text.quote gui=italic
     hi @text.strong.markdown_inline gui=bold
     hi @text.emphasis.markdown_inline gui=italic
-
-    " Named constants
-    hi hlsimple_Head2     guifg=#2980B9  guibg=NONE     gui=NONE
 else
     echo "dark"
 endif
@@ -177,28 +172,10 @@ hi! link fugitiveStagedHeading  DiffAdd
 hi! link fugitiveStagedModifier DiffAdd
 hi! link fugitiveStagedSection  DiffAdd
 
-
-" tabgar
-" hi! link TagbarHighlight           CursorLineNr
-" hi! link TagbarFoldIcon            NonText
-" hi! link TagbarVisibilityPrivate   Normal
-" hi! link TagbarVisibilityProtected Normal
-" hi! link TagbarVisibilityPublic    Normal
-" hi! link TagbarSignature           Normal
-" hi! link TagbarKind                hlsimple_Head2
-" hi! link TagbarNestedKind          hlsimple_Head2
-" hi! link TagbarScope               Normal
-" hi! link TagbarType                Normal
-
 " javascript
 " hi! link jsThis Normal
 
 " python
-" hi! link pythonStrInterpRegion  String
-" hi! link pythonStrFormat        String
-" hi! link pythonStrFormatting    String
-" hi! link pythonDocTest2         NonText
-" hi! link pythonDocstring        String
 hi! link @boolean.python Normal
 hi! link @constant.builtin.python Normal
 hi! link @constant.python Normal
