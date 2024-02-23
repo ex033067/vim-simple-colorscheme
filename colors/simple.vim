@@ -16,18 +16,18 @@ let g:colors_name = "simple"
 
 if &background == "light"
     " ------------- ------- ------- -------
-    " Color table    Dark   Normal   Light 
+    " Color table    Dark   Normal   Light
     " ------------- ------- ------- -------
     " gray                  #999999 #E5E5E5
-    " black         #000000 #333333        
+    " black         #000000 #333333
     " blue          #005B96 #2980B9 #C1DDFF
-    " yellow                #FFD500        
+    " yellow                #FFD500
     " orange                #F3B301 #FCEFCC
-    " brown                 #AC6C1C        
-    " green         #008744 #44B533        
-    " red                   #CE2B37        
-    " pink (future)         #F92672        
-    " cyan (future)         #00B2B2        
+    " brown                 #AC6C1C
+    " green         #008744 #44B533
+    " red                   #CE2B37
+    " pink (future)         #F92672
+    " cyan (future)         #00B2B2
     " ------------- ------- ------- -------
 
     hi Normal       guifg=#333333  guibg=NONE
@@ -48,12 +48,12 @@ if &background == "light"
     hi IncSearch    guifg=#333333  guibg=#FFD500  gui=NONE
     hi Question     guifg=#AC6C1C  guibg=NONE     gui=NONE    |" Press ENTER or type command to continue
     hi SpecialKey   guifg=#2980B9  guibg=#E5E5E5  gui=NONE
-    hi Title        guifg=fg  guibg=NONE     gui=bold
+    hi Title        guifg=fg       guibg=NONE     gui=bold
 
     " Syntax highlight groups
     hi Constant     guifg=#2980B9  guibg=NONE     gui=NONE
     hi Special      guifg=#2980B9  guibg=NONE     gui=NONE
-    hi Underlined   guifg=fg       guibg=NONE     gui=underline  
+    hi Underlined   guifg=fg       guibg=NONE     gui=underline
     hi String       guifg=#2980B9  guibg=NONE     gui=NONE
 
     " hi @text.literal guifg=#008744  guibg=NONE     gui=NONE
@@ -73,7 +73,7 @@ endif
 hi! link ColorColumn  CursorLine
 hi! link Conceal      NonText
 hi! link CursorColumn CursorLine
-hi! link DiffText     WarningMsg   
+hi! link DiffText     WarningMsg
 hi! link Directory    Normal
 hi! link EndOfBuffer  NonText
 hi! link VertSplit    StatusLineNC
@@ -128,8 +128,6 @@ hi! link Error      DiffDelete
 hi! link Todo       DiffChange
 hi! link SpecialChar SpecialKey
 hi! link @string.documentation Comment
-
-
 " Character
 " Number
 " Boolean
@@ -175,9 +173,9 @@ hi! link gitcommitDiscardedFile NonText
 hi! link gitcommitUntrackedFile NonText
 
 " vim-fugitive
-hi! link fugitiveStagedHeading      DiffAdd
-hi! link fugitiveStagedModifier     DiffAdd
-hi! link fugitiveStagedSection      DiffAdd
+hi! link fugitiveStagedHeading  DiffAdd
+hi! link fugitiveStagedModifier DiffAdd
+hi! link fugitiveStagedSection  DiffAdd
 
 
 " tabgar
