@@ -51,16 +51,16 @@ if &background == "light"
     hi Title        guifg=fg       guibg=NONE     gui=bold
 
     " Syntax highlight groups
-    hi Constant     guifg=#2980B9  guibg=NONE     gui=NONE
-    hi Special      guifg=#2980B9  guibg=NONE     gui=NONE
-    hi Underlined   guifg=fg       guibg=NONE     gui=underline
-    hi String       guifg=#2980B9  guibg=NONE     gui=NONE
-    hi @text.literal guifg=#2980B9  guibg=NONE     gui=NONE
-    hi @text.strike gui=strikethrough
-    hi @text.quote gui=italic
-    hi @text.strong.markdown_inline gui=bold
-    hi @text.emphasis.markdown_inline gui=italic
-    hi Todo         guifg=#E5E5E5  guibg=#CE2B37
+    hi Constant      guifg=#2980B9  guibg=NONE    gui=NONE
+    hi Special       guifg=#2980B9  guibg=NONE    gui=NONE
+    hi String        guifg=#2980B9  guibg=NONE    gui=NONE
+    hi @text.literal guifg=#2980B9  guibg=NONE    gui=NONE
+    hi @text.strike                               gui=strikethrough
+    hi @text.quote                                gui=italic
+    hi @text.strong.markdown_inline               gui=bold
+    hi @text.emphasis.markdown_inline             gui=italic
+    hi Todo          guifg=#E5E5E5  guibg=#CE2B37 gui=NONE
+    hi Underlined    guifg=fg       guibg=NONE    gui=underline
 else
     echo "dark"
 endif
