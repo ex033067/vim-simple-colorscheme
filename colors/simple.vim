@@ -60,6 +60,7 @@ if &background == "light"
     hi @text.quote gui=italic
     hi @text.strong.markdown_inline gui=bold
     hi @text.emphasis.markdown_inline gui=italic
+    hi Todo         guifg=#E5E5E5  guibg=#CE2B37
 else
     echo "dark"
 endif
@@ -120,7 +121,8 @@ hi! link PreProc    Normal
 hi! link Type       Normal
 hi! link Ignore     NonText
 hi! link Error      DiffDelete
-hi! link Todo       DiffChange
+hi! link @text.danger.comment Todo |" FIXME inside comments
+hi! link @text.note.comment Todo |" NOTE inside comments
 hi! link SpecialChar SpecialKey
 hi! link @string.documentation Comment
 " Character
