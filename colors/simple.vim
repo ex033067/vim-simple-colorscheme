@@ -127,7 +127,7 @@ hi! link Ignore     NonText
 hi! link Error      DiffDelete
 hi! link Todo       DiffChange
 hi! link SpecialChar SpecialKey
-hi! link @string.documentation    Comment
+hi! link @string.documentation Comment
 
 
 " Character
