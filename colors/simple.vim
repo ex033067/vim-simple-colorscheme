@@ -169,6 +169,10 @@ hi! link gitcommitDiscardedType NonText
 hi! link gitcommitDiscardedFile NonText
 hi! link gitcommitUntrackedFile NonText
 
+" Markdown
+hi! link @text.todo.checked.markdown Normal
+hi! link @text.todo.unchecked.markdown Normal
+
 " vim-fugitive
 hi! link fugitiveStagedHeading  DiffAdd
 hi! link fugitiveStagedModifier DiffAdd
