@@ -59,7 +59,7 @@ if &background == "light"
     hi @text.quote                                gui=italic
     hi @text.strong.markdown_inline               gui=bold
     hi @text.emphasis.markdown_inline             gui=italic
-    hi Todo          guifg=#E5E5E5  guibg=#CE2B37 gui=NONE
+    hi Todo          guifg=#333333  guibg=#FFD500 gui=bold,nocombine
     hi Underlined    guifg=fg       guibg=NONE    gui=underline
 else
     echo "dark"
