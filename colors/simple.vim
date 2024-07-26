@@ -54,7 +54,7 @@ if &background == "light"
     hi Constant      guifg=#2980B9  guibg=NONE    gui=NONE
     hi Special       guifg=#2980B9  guibg=NONE    gui=NONE
     hi String        guifg=#2980B9  guibg=NONE    gui=NONE
-    hi @text.literal guifg=#008744  guibg=NONE    gui=NONE  |" code blocks
+    hi @text.literal guifg=#2980B9  guibg=NONE    gui=NONE  |" code blocks
     hi @text.strike                               gui=strikethrough
     hi @text.quote                                gui=italic
     hi @text.strong.markdown_inline               gui=bold
