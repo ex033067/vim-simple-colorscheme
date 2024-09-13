@@ -30,7 +30,7 @@ if &background == "light"
     " cyan (future)         #00B2B2
     " ------------- ------- ------- -------
 
-    hi Normal       guifg=#333333  guibg=#FFFFFF
+    hi Normal       guifg=#333333  guibg=NONE
 
     " UI highlight groups
     hi CursorLine                  guibg=#C1DDFF  gui=NONE
