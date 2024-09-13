@@ -34,7 +34,7 @@ if &background == "light"
 
     " UI highlight groups
     hi CursorLine                  guibg=#C1DDFF  gui=NONE
-    hi CursorLineNr guifg=#000000  guibg=NONE     gui=bold
+    hi CursorLineNr guifg=#2980B9  guibg=NONE     gui=bold
     hi StatusLine   guifg=#E5E5E5  guibg=#005B96  gui=NONE
     hi StatusLineNC guifg=#999999  guibg=#E5E5E5
     hi Comment      guifg=#999999  guibg=NONE     gui=NONE
