@@ -37,7 +37,7 @@ if &background == "light"
     hi CursorLineNr guifg=#000000  guibg=NONE     gui=bold
     hi StatusLine   guifg=#E5E5E5  guibg=#005B96  gui=NONE
     hi StatusLineNC guifg=#999999  guibg=#E5E5E5
-    hi Comment      guifg=#999999  guibg=NONE     gui=italic
+    hi Comment      guifg=#999999  guibg=NONE     gui=NONE
     hi NonText      guifg=#999999  guibg=NONE     gui=nocombine
     hi DiffAdd      guifg=#44B533  guibg=NONE     gui=NONE
     hi DiffChange   guifg=#F3B301  guibg=NONE     gui=NONE
@@ -56,7 +56,7 @@ if &background == "light"
     hi String        guifg=#2980B9  guibg=NONE    gui=NONE
     hi @text.literal guifg=#2980B9  guibg=NONE    gui=NONE  |" code blocks
     hi @text.strike                               gui=strikethrough
-    hi @text.quote                                gui=italic
+    hi @text.quote                                gui=NONE
     hi @text.strong.markdown_inline               gui=bold
     hi @text.emphasis.markdown_inline             gui=italic
     hi Todo          guifg=#333333  guibg=#FFD500 gui=bold,nocombine
